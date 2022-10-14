@@ -14,12 +14,6 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 
-CGREC_2019_fuels.csv
-
-bib/
-writeup/
-script/
-
 drafts/HopperzBib.bib.bak
 drafts/HopperzBib.bib.sav
 
@@ -34,3 +28,5 @@ drafts/*.aux
 drafts/TeXstras.tex
 drafts/FromNick.docx
 drafts/FromNick.md
+
+
