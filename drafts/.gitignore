@@ -14,11 +14,17 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 
-*.R
-*.Rmd
-*.pdf
-*.docx
-*.RIS
-*cls
+drafts/HopperzBib.bib.bak
+drafts/HopperzBib.bib.sav
 
-
+drafts/NicksHopperzPaper.tex
+drafts/NicksHopperzPaper.pdf
+drafts/NicksHopperzPaper.spl
+drafts/NicksHopperzPaperELS.Rmd
+drafts/elsarticle.cls
+drafts/oecologia.csl
+drafts/rem.csl
+drafts/*.aux
+drafts/TeXstras.tex
+drafts/FromNick.docx
+drafts/FromNick.md
