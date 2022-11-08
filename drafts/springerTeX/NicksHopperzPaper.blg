@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: NicksHopperzPaper.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: sn-basic.bst
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+Database file #1: HopperzBib.bib
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Warning--missing publisher in schmitz2010
+You've used 31 entries,
+            3546 wiz_defined-function locations,
+            934 strings with 12790 characters,
+and the built_in function-call counts, 36934 in all, are:
+= -- 4487
+> -- 967
+< -- 17
++ -- 510
+- -- 286
+* -- 2378
+:= -- 4138
+add.period$ -- 55
+call.type$ -- 31
+change.case$ -- 254
+chr.to.int$ -- 31
+cite$ -- 32
+duplicate$ -- 3630
+empty$ -- 2327
+format.name$ -- 386
+if$ -- 7624
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 238
+newline$ -- 102
+num.names$ -- 126
+pop$ -- 1167
+preamble$ -- 1
+purify$ -- 225
+quote$ -- 0
+skip$ -- 1925
+stack$ -- 0
+substring$ -- 2640
+swap$ -- 2515
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 270
+warning$ -- 1
+while$ -- 197
+width$ -- 0
+write$ -- 370
+(There was 1 warning)

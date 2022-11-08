@@ -1,0 +1,226 @@
+---
+title: "Hoppers Data"
+author: "Nicholas Heimbuch"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, echo=FALSE, warning=FALSE, message = FALSE, results='hide'}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+pacman::p_load(tidyverse, readxl)
+```
+
+
+```{r data}
+trt <- read_xlsx("../data/HopperzR.xlsx",
+                       "Treatment")
+#biomass data
+fb <- read_xlsx("../data/HopperzR.xlsx",
+               "Forage Biomass") %>%
+        full_join( trt ,
+                   by="Plot")
+
+#Abundance data
+ha<- read_xlsx("../data/HopperzR.xlsx",
+               "Hopper Abundance")%>%
+      full_join(trt,
+                by="Plot")
+
+#Forage quality data
+cn<- read_xlsx("../data/HopperzR.xlsx",
+          "CN Analysis") %>%
+      full_join( trt,
+                 by="Plot")
+
+#Density per square meter
+ha <- read_xlsx("../data/HopperzR.xlsx",
+               "Hopper Abundance") %>%
+        full_join(trt,
+                  by="Plot")
+ring = 2.5 #sum area of five rings (square meters)
+```
+
+
+## Biomass
+
+We predicted that the difference in biomass would decrease with time since fire. 
+
+```{r}
+fb %>%
+  mutate(atw= WWWeight/WWT,
+         atw= ifelse(Treatment=="Summer", Totalweight, atw))%>%
+  select(Treatment, Plot, Trial, atw)%>%
+  separate(Trial, into= c("Trt", "rep"), sep = " ")%>%
+  mutate(rep = case_when(
+                rep== "1"~"A", 
+                rep== "2"~"B",
+                TRUE~ rep),
+        Treatment = case_when(
+          Treatment== "Summer"~"Unburned",
+          TRUE~ Treatment),
+    days= ifelse(rep== "A", 40, 33) )%>%
+  pivot_wider(names_from = Trt, 
+              values_from = atw)%>%
+  mutate(diff= (Control-Exclosure)/(Control)*100, 
+         rate= diff/days)%>%
+group_by(Treatment) %>%
+  summarize(Meandiff= mean(rate),
+          SEdiff= sd(rate)/sqrt(n())) %>%
+  ggplot()+
+  geom_hline(yintercept = 0, lty=3)+
+  geom_errorbar(aes(x=Treatment,
+                    ymin=Meandiff-SEdiff,
+                    ymax=Meandiff+SEdiff
+                    ),
+                position = position_dodge(width=0.2),
+                width= 0.2)+
+  geom_point(aes(x=Treatment,
+                 y=Meandiff
+                 ),
+             position = position_dodge(width=0.2))+
+  labs(x= "Season of Last Burn",
+       y= "Daily Rate of \n Grasshopper Removal (%)")
+              
+```
+
+## Biomass Loss Per Hectare
+
+Burned areas saw heavy grasshopper removal
+
+```{r}
+fb %>%
+  filter(Treatment != "Summer")%>%
+  select(Treatment, Plot, Trial, Totalweight)%>%
+  separate(Trial, into= c("Trt", "rep"), sep = " ")%>%
+  mutate(rep = case_when(
+    rep== "1"~"A", 
+    rep== "2"~"B",
+    TRUE~ rep),
+    days= ifelse(rep== "A", 40, 33) )%>%
+  pivot_wider(names_from = Trt, 
+              values_from = Totalweight)%>%
+  #exclosure is half meter squared
+    mutate(gdiff1m= ((Control-Exclosure)*2),
+         kgdiffha= gdiff1m*10,
+           rate= kgdiffha/(days))%>%
+  group_by(Treatment) %>%
+  summarize(Meandiff= mean(rate),
+            SEdiff= sd(rate)/sqrt(n())) %>%
+  mutate(Meandiff= -Meandiff)%>%
+  ggplot()+ theme_bw()+
+  geom_errorbar(aes(x=Treatment,
+                    ymin=Meandiff-SEdiff,
+                    ymax=Meandiff+SEdiff
+  ),
+  position = position_dodge(width=0.2),
+  width= 0.2)+
+  geom_point(aes(x=Treatment,
+                 y=Meandiff
+  ),
+  position = position_dodge(width=0.2))+
+  labs(x= "Season of Last Burn",
+       y= "Rate of Removal \n (kg/ha/day)")
+```
+
+## Abundance
+
+we predicted that abundance would decrease with time since fire. 
+
+```{r abundance graph}
+ha %>%
+  mutate(#Date= format(Date, "%d-%B"),
+         Hoppers= as.numeric(trimws(Hoppers)) )%>%
+  mutate(Treatment = case_when(
+    Treatment== "Summer"~"Unburned",
+    TRUE~ Treatment))%>%
+  group_by(Treatment, Date)%>%
+    summarize(MeanHoppers= mean(Hoppers, na.rm=T),
+    SEHoppers= sd(Hoppers)/sqrt(n()))%>%
+ 
+ggplot()+
+  geom_line(aes(x=Date, y=MeanHoppers,
+                color=Treatment))+
+  geom_errorbar(aes(x=Date,
+                    ymin=MeanHoppers-SEHoppers,
+                    ymax=MeanHoppers+SEHoppers,
+                    color=Treatment),
+  position = position_dodge(width=5),
+  width= 5)+
+  geom_point(aes(x=Date,
+                 y=MeanHoppers,
+                 color=Treatment),
+  position = position_dodge(width=5))+
+  labs(x= "Date",
+       y= "Abundance")
+```
+
+We found that fall and spring burn treatments were higher in abundance than unburned treatments. 
+
+
+## Density per Hectare
+
+The densities climbed in burned plots but remained consistent in unburned plots. 
+
+```{r}
+ha %>%
+  mutate(#Date= format(Date, "%d-%B"),
+    Hoppers= as.numeric(trimws(Hoppers)) )%>%
+  mutate(Treatment = case_when(
+    Treatment== "Summer"~"Unburned",
+    TRUE~ Treatment),
+    Hoppers= Hoppers/ring)%>%
+  group_by(Treatment, Date)%>%
+  summarize(MeanHoppers= mean(Hoppers, na.rm=T),
+            SEHoppers= sd(Hoppers)/sqrt(n()))%>%
+  
+  ggplot()+ theme_bw()+
+  geom_line(aes(x=Date, y=MeanHoppers,
+                color=Treatment))+
+  geom_errorbar(aes(x=Date,
+                    ymin=MeanHoppers-SEHoppers,
+                    ymax=MeanHoppers+SEHoppers,
+                    color=Treatment),
+                position = position_dodge(width=5),
+                width= 5)+
+  geom_point(aes(x=Date,
+                 y=MeanHoppers,
+                 color=Treatment),
+             position = position_dodge(width=5))+
+  labs(x= "Date",
+       y= "Density (Grasshoppers/m^2)")
+```
+
+## Forage Quality
+
+We predicted forage quality to be highest in the most recently burned plots. 
+
+```{r crude protein graph}
+cn %>% 
+group_by(Treatment, Organ)%>%
+  summarize(MeanProtein= mean(Protein),
+            SEProtein= sd(Protein)/sqrt(n()))%>%
+  mutate(Treatment = case_when(
+    Treatment== "Summer"~"Unburned",
+    TRUE~ Treatment))%>%
+  ggplot()+
+  geom_errorbar(aes(x=Treatment,
+                    ymin=MeanProtein-SEProtein,
+                    ymax=MeanProtein+SEProtein,
+                    color=Organ),
+                position = position_dodge(width=0.2),
+                width= 0.2)+
+  geom_point(aes(x=Treatment,
+                 y=MeanProtein,
+                 color=Organ),
+             position = position_dodge(width=0.2))+
+  labs(x= "Season of Last Burn",
+       y= "Mean Protein (%)")
+#Stats 
+pmod<- lm(Protein~Treatment*Organ, cn)
+anova(pmod) %>% pander::pander("Anova table")
+TukeyHSD(aov(pmod), which= "Treatment") %>% pander::pander("Tukey test")
+```
+
+# Script
+```{r script, ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE}
+```
