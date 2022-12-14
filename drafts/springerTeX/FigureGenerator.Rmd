@@ -38,9 +38,13 @@ pacman::p_load(tidyverse, readxl, wesanderson, gridExtra)
 ring = 2.5 #sum area of five rings (square meters)
 ```
 
+```{r removal_total}
 
-```{r removal}
-# Calculate offtake 
+```
+
+
+```{r removal_rate}
+# Calculate offtake rate
   off <- 
     fb %>%
       select(Treatment, Plot, Trial, Totalweight) %>%
@@ -115,9 +119,72 @@ ring = 2.5 #sum area of five rings (square meters)
                fill = wes_palette("Darjeeling1")[3], 
                stroke = 1.25)+
     labs(x= "Season of last burn",
-         y= "Daily standing crop removal\n(mean kg/ha/d ± s.e.)") + 
+         y= "Daily removal rate\n(mean kg/ha/d ± s.e.)") + 
     theme(panel.grid.major.x = element_blank(), 
           axis.text.x = element_text(color = 'black'))
+```
+
+```{r total_removal, eval=FALSE}
+  fb %>%
+    select(Treatment, Plot, Trial, Totalweight) %>%
+    separate(Trial, into= c("Trt", "rep"), sep = " ")%>%
+    mutate(rep = case_when(
+      rep== "1"~"A", 
+      rep== "2"~"B",
+      TRUE~ rep),
+      Treatment = case_when(
+        Treatment== "Summer"~"Unburned",
+        TRUE~ Treatment),
+      days= ifelse(rep== "A", 40, 33) ) %>%
+    pivot_wider(names_from = Trt, 
+                values_from = Totalweight) %>%
+    mutate(prop = ( (Exclosure-Control)/(Exclosure) ) * 100)  %>%
+    group_by(Treatment) %>%
+    summarize(RemovalMean = mean(prop),
+              RemovalSEM = sd(prop)/sqrt(n()),
+              .groups = 'drop') %>%
+      ggplot()+ theme_bw(14) +
+    geom_errorbar(aes(x=Treatment,
+                      ymin=RemovalMean-RemovalSEM,
+                      ymax=RemovalMean+RemovalSEM),
+                color = wes_palette("Darjeeling1")[4], 
+                size = 1,
+                width= 0.1) +
+    geom_point(aes(x=Treatment,
+                   y=RemovalMean),
+               size = 4, 
+               pch = 24, 
+               color = wes_palette("Darjeeling1")[4], 
+               fill = wes_palette("Darjeeling1")[3], 
+               stroke = 1.25)+
+    labs(x= "Season of last burn",
+         y= "Total biomass removal\n(%, mean ± s.e.)") + 
+    theme(panel.grid.major.x = element_blank(), 
+          axis.text.x = element_text(color = 'black'))
+```
+
+```{r removal_tab}
+  fb %>%
+    select(Treatment, Plot, Trial, Totalweight) %>%
+    separate(Trial, into= c("Trt", "rep"), sep = " ")%>%
+    mutate(rep = case_when(
+      rep== "1"~"A", 
+      rep== "2"~"B",
+      TRUE~ rep),
+      Treatment = case_when(
+        Treatment== "Summer"~"Unburned",
+        TRUE~ Treatment),
+      days= ifelse(rep== "A", 40, 33) ) %>%
+    pivot_wider(names_from = Trt, 
+                values_from = Totalweight) %>%
+    mutate(prop = ( (Exclosure-Control)/(Exclosure) ) * 100)  %>%
+    group_by(Treatment) %>%
+    summarize(Mean = round(mean(prop), 1),
+              SEM = round(sd(prop)/sqrt(n()), 1),
+              .groups = 'drop') %>%
+    mutate(`Total biomass removal` = paste0(Mean, ' +/- ', SEM)) %>%
+  select(-Mean, -SEM) %>%
+  pander::pander() 
 ```
 
 Standing crop was statistically-significantly lower outside of grasshopper exclosures in both fall and spring burns ($t =$ `r off_sum[1,4]`, $P$ `r off_sum[1,5]` and $t =$ `r off_sum[2,4]`, $P$ `r off_sum[2,5]`, respectively). 
