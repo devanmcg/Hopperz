@@ -60,14 +60,15 @@ DB provided grasshopper expertise and sampling equipment. }}
            		     
 \clearpage
 
-\abstract{Little research has been done to examine the influences of fire and drought on grasshopper herbivory patterns. 
-Climate warming is producing more frequent and more intense droughts in the Northern Great Plains region of the United States, affecting herbivore resource availability and stressing the range ecosystem. 
-This study created three different time since fire treatments to examine how indirect fire effects (improved forage quality) affect the density and offtake of local grasshoppers.
-Both offtake and density were significantly higher in burned locations compared to unburned control plots. 
-Burned plot grasshopper density increased greatly over time, while density remained constant in unburned locations. 
-These density patterns appear to be the direct result of the high protein content found in burned locations. 
-The results raise further questions into the mechanism that produces the magnet effect in range grasshoppers. 
-These results also highlight the importance of understanding how fire will interact with future climate conditions to affect range herbivore interactions.} 
+\abstract{Grasshoppers are critical components of open ecosystems worldwide. 
+While often seen as pest species competing with domestic livestock for forage resources and damaging crops, many species never reach abundances that result in economic damage and can provide essential ecosystem services. 
+Grasshopper population and community dynamics are driven by dominant ecosystem processes; in open ecosystems, fire is one of the most ubiquitous. 
+This study examined how indirect fire effects (improved forage quality) affect the density of and offtake by grasshoppers at two different times since fire and in unburned plots.
+Both offtake and density were significantly higher in burned plot compared to unburned plots. 
+Burned plot grasshopper density increased over time, while density remained constant in unburned locations with greater rates of increase in recently burned plots. 
+These density and offtake patterns appear to be the result of higher crude protein content in burned plots. 
+These findings present a mechanism by which fire interacts with grasshopper abundance and distribution in open ecosystems. 
+Long term assessments of fire and its interaction with grazing and weather patterns are necessary to determine if attraction to and consumption of post-fire vegetation will result in greater performance of pest grasshopper species or enhance community diversity, regulating pest species outbreaks.} 
 \keywords{prescribed fire; }
 
 \maketitle
@@ -89,7 +90,7 @@ Direct effects include mortality of adults and eggs from heat exposure, while in
 
 Because the nutritive value of vegetation in open ecosystems often varies depending on the time since it last burned, fire likely also affects grasshoppers by modulating their food resources. 
 Perennial, fire-adapted plants resprout using energy stored in organs protected from heat damage, and post-fire plant tissue is typically higher in crude protein and lower in structural carbohydrates than the mature or senescent tissue that was consumed by the fire \citep{mcgranahan2021}. 
-Thus, despite overall lower plant biomass on account of the fire, grasshopper abundance on recently-burned areas is often higher than unburned areas, especially for graminivorous  (grass-eating) species \citep{meyer2002}. 
+Thus, despite overall lower plant biomass on account of the fire, grasshopper abundance on recently-burned areas is often higher than unburned areas, especially for graminivorous (grass-eating) species \citep{meyer2002}. 
 More broadly, post-disturbance succession and plant nutritive value have been identified as important factors in grasshopper abundance \citep{fartmann2012, schirmel2019}. 
 But explicit examinations between time-since-fire, plant nutritive value, and grasshopper abundance have yet to be conducted. 
 
@@ -104,7 +105,7 @@ As such, we predicted a greater degree of vegetation removal by grasshoppers fro
 
 Our study was conducted at the USDA-Agricultural Research Service Livestock and Range Research Station in Miles City, Montana, USA (46.40 N, 105.95 W).  
 Vegetation is typical mixed-grass prairie, and the study site was dominated by western wheatgrass \emph{Pascopyrum smithii}.  
-The overwhelming majority of grasshoppers on the study site, as determined by mid-season sweep netting and identification at the USDA-ARS Pest Management Research Unit in Sidney, Montana, were the migratory grasshopper \emph{Melanoplus sanguinipes}, a native species of spur-throated grasshopper in the family Acrididae. 
+The overwhelming majority of grasshoppers on the study site, as determined by mid-season sweep netting and identification at the USDA-ARS Pest Management Research Unit in Sidney, Montana, consisted of the migratory grasshopper \emph{Melanoplus sanguinipes}, a native species of spur-throated grasshopper in the family Acrididae. 
 
 Within a larger prescribed fire experiment, we selected nine, 375-m\textsuperscript{2} plots to test three different time-since-fire treatments (n=3 each): Fire the previous autumn, fire the previous spring, and a control treatment left unburned for several years. 
 Livestock were excluded from the entire study area and had been for several years.
@@ -116,8 +117,8 @@ To measure the amount of vegetation removed by foraging grasshoppers, we establi
 Each pair of 0.25-m\textsuperscript{2} sample points consisted of one full mesh grasshopper exclosure alongside another structure with a similar footprint and shade factor that was open to grasshopper herbivory.
 Each type of structure consisted of a polyvinyl chloride tube frame with heavy nylon netting, which when fully wrapped and zipped around the frame and weighted down with sand-filled tubes, effectively kept grasshoppers out \citep{parker1985}. 
 Because the mesh reduced sunlight intensity by 400 w m\textsuperscript{-2} compared to the
-surrounding area, we designed control structures that remain open on the north and south faces to allow grasshoppers to enter while still producing shade conditions that matched the exclosures during peak photosynthesis hours. 
-These paired structures ensured that shade would not influence grass development and skew our offtake measurements. 
+surrounding area, we designed control structures that remain open on the north and south faces to allow grasshoppers to enter while still producing shade conditions that matched the exclosures during peak photosynthetic activity. 
+These paired structures ensured that shade would not influence grass development, skewing offtake measurements. 
 Structures were monitored at least every 48 hr and after any substantial weather event to ensure they remained intact; in the few instances grasshoppers had crawled under the exclosures, they were removed upon discovery. 
 
 On all plots, the first pair of structures was established 1 July 2021, and the second pair 1 week later. 
@@ -153,6 +154,7 @@ Sampling consisted of walking slowly through the plot and agitating the area nea
 \subsection{Data analysis}
 
 To determine whether accessibility to grasshoppers affected the amount of aboveground vegetation, we subtracted the dried biomass values from control structures from that of their paired grasshopper exclosures (n = 6 observational units per treatment) and found the mean of these two differences for each plot (n = 3 experimental units per treatment). 
+To account for the different lengths of deployments among the two pairs of structures, offtake was expressed as daily rate of removal by dividing the difference in biomass between paired structures by the number of days each structure pair was deployed.  
 We used a linear model with the intercept term removed to test each of the three difference values against 0 (null hypothesis: no difference in standing crop between grasshopper exclosures and control frames) using the \texttt{lm} function in the \textsf{R} statistical environment \citep{Rcore2020}. 
 We tested pairwise contrasts in standing crop differences across each treatment with a post-hoc Tukey test using \texttt{TukeyHSD}.
 
@@ -168,12 +170,13 @@ To compare the relative rates of change over the study period, we plotted the es
 \begin{figure}
 \centering
 \includegraphics{removal_gg-1.pdf}
-\caption{Mean differences in standing crop between grasshopper exclosures and control frames in plots with three different fire treatments. 
+\caption{Mean differences in biomass removal rate between grasshopper exclosures and control frames in plots with three different fire treatments. 
 Standing crop was determined by clipping at the end of the four-week study period and differences attributable to grasshopper removal are expressed as mean kg per ha per day.}
 \label{removal} % Fig.~\ref{removal}
 \end{figure}
 
-Standing crop was statistically-significantly lower outside of grasshopper exclosures in both fall and spring burns (\(t =\) -7.6,
+Overall, aboveground plant biomass was lower outside of exclosures in both fire treatments (64 $\pm$ 4\% less in fall burn plots and 55 $\pm$ 9\% less in spring burn plots), but was not different in unburned plots (1 $\pm$ 8\%).
+The greater daily removal rates accounted for statistically-significantly lower biomass outside of grasshopper exclosures in both fall and spring burns (\(t =\) -7.6,
 \(P\) \textless{} 0.001 and \(t =\) -6, \(P\) \textless{} 0.001, respectively). 
 There was no difference in offtake among spring and fall burns (\(P\) \textgreater{} 0.05), with grasshoppers removing approximately 1.0 ($\pm$ 0.2) kg ha\textsuperscript{-1} d\textsuperscript{-1} in each (Fig.~\ref{removal}). 
 Standing crop was not different between grasshopper exclosures and areas accessible to grasshoppers in unburned plots (\(t =\) -0.12, \(P\) \textgreater{} 0.05).
@@ -183,13 +186,13 @@ Standing crop was not different between grasshopper exclosures and areas accessi
 \centering
 \includegraphics{value_gg-1.pdf}
 \caption{Mean protein content of western wheatgrass \emph{Pascopyrum smithii} sampled from three burn treatments as a percentage of total dry matter. 
-Red circles indicate the protein content of leaves; blue triangles are stems.}
+Orange circles indicate the protein content of leaves; blue triangles are stems.}
  \label{value} % (Fig.~\ref{value})
 \end{figure}
 
-Crude protein content varied among the fire treatments (\(t =\) 57, \(P\) \textless{} 0.001; (Fig.~\ref{value}). 
-Crude protein content in fall and spring burns averaged 6.4\% ± 0.2 s.e. and did not differ among each other (\(P\) \textgreater{} 0.05). 
-But crude protein content in unburned  plots was lower than in both fall and spring burns plots (-2.7, \(P\) \textless{} 0.001 and -3.1, \(P\) \textless{} 0.001, respectively).
+Crude protein content varied among the fire treatments (\(t =\) 57, \(P\) \textless{} 0.001; Fig.~\ref{value}). 
+Crude protein content in fall and spring burns averaged 6.4\% ± 0.2 s.e. and did not differ from one another (\(P\) \textgreater{} 0.05). 
+But crude protein content in unburned  plots was lower than in both fall and spring burns plots (\(t =\) -2.7, \(P\) \textless{} 0.001 and \(t =\) -3.1, \(P\) \textless{} 0.001, respectively).
 
 Across all samples, crude protein content did not vary among leaves and
 stems (\(t =\) 2.7, \(P\) \textgreater{} 0.05). Despite a trend towards
@@ -202,7 +205,7 @@ treatment \(\times\) organ interaction (\(t =\) 2.1, \(P\)
 \centering
 \includegraphics{tau_gg-1.pdf}
 \caption{Observed grasshopper counts per square meter. 
-Red indicates data taken from fall burn treatments, green from spring burn treatments, and blue from unburned (control) plots.
+Orange indicates data taken from fall burn treatments, blue from spring burn treatments, and red from unburned (control) plots.
 \emph{Bottom} shows data from Kendall's Tau statistic which assessed the observed count trendline consistency over time. 
 Our tau values were compared against the null hypothesis that there was no trend in our data. 
 95\% confidence intervals were calculated to show the possible variance in slope for the data over time. 
@@ -216,89 +219,32 @@ While grasshopper abundance increased in both burn treatments, the rate of incre
 
 \section{Discussion}
 
-Previous research indicates that prescribed fire reduces grasshopper
-density \citep{joern2004, vermeire2004}, our study, however, saw
-heightened density in small patch burning treatments which could have
-massive implications for predicting rangeland herbivore competition.
-Fire as a method of control varies greatly in effectiveness from species
-to species; certain species, such as Hesperotettix viridis, can be
-reduced by as much as 88\% \citep{vermeire2004}. Flightless species of
-grasshopper and species that are heavily reliant on specific plant hosts
-are especially susceptible to fire disturbances \citep{matenaar2014}.
-Thanks to nutrient buffering produced by fire treatment
-\citep{spiess2020}, protein availability produced a magnet effect which
-we believe caused the heightened density and offtake in burned plots
-\citep{meyer2002}. These findings indicate fire disturbance can produce
-pockets of extreme competition between range herbivores, with much less
-forage for ungulates than what is seemingly available.
+Insect herbivore abundance and distribution are extremely spatially and temporally variable \citep{cappuccino1995}. This variability is often tied to variability in plant biomass and nutrient content \citep{joern2012}. Insect herbivores often select plant species or suites of species based on specific nutritional needs \citep{ibanez2013, behmer2008} and will actively seek a diet that contains a specific ratio of nutrients \citep{behmer2009}. Therefore, the distribution of plant nutritional quality on the landscape can be a strong determinant of grasshopper abundance and distribution \citep{white2012}. 
 
-The dominant grasshopper at our study area, the migratory grasshopper \emph{Melanoplus sanguinipes}, is frequently responsible for the largest outbreaks, making it especially damaging to farmers and ranchers throughout the Great Plains \citep{onsager2000, olfert2021}.
-M. sanguinipes' preferred diet is a nitrogen and carbohydrate ratio of
-1:1, making them especially robust and better able to adapt to
-nutritionally variable seasons \citep{behmer2008}. Furthermore, these
-grasshoppers have the fastest egg production rate at intermediate
-dietary nitrogen levels of around 4\% \citep{joern1998} and use nitrogen
-to maintain their health and function \citep{schmitz2010}. Due to their
-robust qualities, these grasshoppers were incredibly abundant on the
-Northern Great Plains in the summer of 2021. Although our burned plots
-had higher nitrogen than what is ideal for egg production, the
-competition between grasshoppers and the overall low nitrogen content of
-the landscape pushed M. sanguinipes to our plots to supplement their
-diets. Primary productivity in the Northern Great Plains is directly
-linked to rainfall \citep{padbury2002}, therefore the steady increase in
-grasshopper density on our burn treatment plots is most likely
-attributable to an intensification of the magnet effect as the summer
-long drought progressed given that emergence typically peaks in late
-June \citep{belovsky1995, humphreys2022}. While other research suggests
-that grasshoppers can be attracted to heterogeneous areas for
-thermoregulatory microhabitats \citep{joern2013}, the rapid increase in
-grasshopper density and the worsening of the drought over the summer
-points to a nutrient pull rather than a beneficial microhabitat. High
-temperatures, which we experienced consistently throughout the summer
-heat wave, weaken M. sanguinipes ability to fight infection
-\citep{srygley2022}, further indicating that these grasshoppers are
-drawn by nitrogen content and not thermoregulation when shade was nearly
-completely absent in the burned plots.
+In the present study, grasshoppers removed over half of available biomass over the study period in burned plots but had no detectable effect in unburned plots. This is likely related to crude protein content which was elevated in burned plots and the resultant increase in grasshopper abundance over time in plots that had been burned in either the previous spring or fall. Grasshoppers in other systems have been shown to select burned vegetation; grasshoppers feeding in willow selected resprouting burned willow shoots, consuming them completely, while rejecting unburned willow after a taste \citep{stein1992} and in the Brazilian Cerrado, leaf chewing insects including grasshoppers selected resprouting burned shrubs, causing 30-60 percent greater damage to resprouting leaves than unburned leaves \citep{lopes2011}. 
 
-Our study differs from other pyric herbivory studies because it was
-conducted with small, clustered areas of burn. Because density increased
-so greatly with burn in this study, it indicates a need for further
-research into small burn resource utilization by range grasshoppers.
-Future directions for our study can examine how grasshopper density
-changes with distance from a burn edge for a large burn area. This
-information could provide a clearer picture of recolonization effects
-created by burn scars combined with magnet effects. Recolonization
-presents an avenue for this research to be applied to larger burns in
-the Great Plains region, which are becoming more and more common.
-Grasshopper density changes could also be further examined through the
-offtake rate over time. Further research is needed to see if the offtake
-rate increased in burned plots over the duration of the drought. This
-would show that offtake is directly related to the quality of the
-surrounding forage. Because climate change is intensifying drought
-conditions \citep{derner2018}, understanding how offtake will change
-will better inform ranching practices to ensure sustainable competition
-between grasshoppers and livestock.
+Time since last fire is a driver of spatial and temporal variability in the distribution of plant nutritional quality. Resprouting plant tissues typically have higher protein content than their unburned counterparts \citep{mcgranahan2021} and elevated protein content in burned areas can be maintained over longer periods by grazing \citep{wanchuk2021}, even during drought \citep{spiess2020}. This feedback \textemdash higher nutritional quality attracts herbivores to an area after fire and they maintain the high nutritional quality by remaining in that area to continue consuming high quality plant tissues that must then regrow \textemdash has been noted for a range of herbivores in open ecosystems worldwide \citep{allred2011, archibald2005, sensenig2010}. 
 
-Our study has important implications for ranch practices in the Northern
-Great Plains. Because prescribed fire is so often used as a forage
-buffer for cattle ranching \citep{spiess2020}, it is important to know
-how much of the available forage will go to cattle and how much will be
-consumed by grasshoppers. Our research already goes against the
-population dynamics between grasshoppers and prescribed previously
-described \citep{joern2004, vermeire2004}, so it is very likely that
-grasshopper abundances are being underestimated when determining how
-many cattle can be put out to pasture without overgrazing the landscape.
-Furthermore, because the density changed so much over the course of the
-study, ranchers must reevaluate the level of competition at the
-beginning of the season compared to the end of the season when resources
-are even more scarce in a drought.
+In this study, the rate of increase in grasshopper abundance was greater in spring burn plots, which were burned most recently. Although there were no differences in absolute abundance between fall and spring burn plots, the differences in rate of increase over the course of the study suggests that divergence between grasshopper abundance between spring and fall burned plots likely became significant by the end of the growing season. This points to a fire-grazing nutrient feedback \textemdash the most recently burned plots maintained that strong feedback over the course of the study while the attraction was not as strong to fall burn plots. While crude protein content did not differ between fall and spring burn plots at the time measured \textemdash halfway through the study in mid July \textemdash crude protein might have diverged later in the growing season in concert with grasshopper abundances. 
+
+Other studies finding an increase in insect herbivore abundance in burned vegetation reference the plant vigor hypothesis. The plant vigor hypothesis describes improved colonization, establishment, survival, and even reproductive rates for herbivores consuming rapidly growing plant tissue \citep{price1991}. This is attributed to enhanced nutritive value or a reduction in antiherbivory secondary metabolites. For instance, leaf galling insect abundance and larvae survival was found to be higher on more nutritive regrowth following fire than in unburned Cerrado savanna vegetation \citep{vieira1996} and increased leaf nitrogen content after fire corresponded with higher abundance of canopy arthropods due to enhanced colonization and survival and more leaf damage than in unburned eucalyptus \citep{radhotoly2001}. 
+
+Grasshopper population dynamics and resultant community composition are impacted by many drivers simultaneously. In addition to plant nutritional status, predation risk \citep{schmitz1997}, dispersal limitation \citep{hawlena2010}, and microclimatic conditions \citep{bauer2007, gardiner2008} are strong determinants of grasshopper dynamics. Because of the role it plays in each of these, vegetation structure has often been found to be correlated with grasshopper distribution and density \citep{joern2004}. In the present study, fire altered both vegetation nutritional status and structure, making it difficult to parse which drove increases in grasshopper abundance. In addition, the dominant species in the present study is a mixed feeder, which are typically less responsive to changes in plant nitrogen \citep{joern2012, jonas2008}. However, given that our study was conducted during the hot summer months during a drought, grasshoppers would likely seek taller stature vegetation to facilitate thermoregulation rather than the shorter stature vegetation of the burned plots. And mixed feeders are thought to be less responsive to changes in plant nitrogen content because they are able to maintain preferred nutrient ratios by consuming both nitrogen-rich forbs and lower-nitrogen grasses \citep{jonas2008}. In the present study, previous management resulted in low forb density, which was exacerbated by drought, potentially forcing even mixed feeders to seek the higher crude protein content of recently burned vegetation. 
+
+Because grasshoppers can be economic pests in grasslands used for livestock production when at high densities, improved survival and reproduction resulting from nutrient enhancement in burned vegetation could intensify competition between livestock and grasshoppers in burned areas. Loss of livestock forage to grasshoppers is most problematic during grasshopper outbreaks or during droughts, when plant productivity is low \citep{belovsky1995, joern2000, branson2014}. The dominant grasshopper at our study area, the migratory grasshopper \emph{Melanoplus sanguinipes}, is frequently responsible for the largest outbreaks, making it especially damaging to farmers and ranchers throughout the Great Plains \citep{onsager2000a, olfert2021}. However, many grasshopper species do not cause economic harm and instead enhance ecosystem service delivery by increasing nutrient cycling, providing food for rangeland wildlife, exerting some control over unwanted rangeland plants, and in some cases increasing overall rangeland productivity \citep{branson2006}. In addition, greater grasshopper diversity can reduce the likelihood of pest species outbreaks as beneficial grasshoppers compete for resources and enhance the efficacy of grasshopper predators \citep{branson2006}. Fire at appropriate scales could enhance diversification of grasshopper communities because they exhibit a breadth of species-specific habitat requirements and fire can enhance structural and nutritive heterogeneity in vegetation. 
+
+Additionally, gains in grasshopper performance from nutritive enhancement could be offset by negative fire effects. Fire alone can reduce grasshopper abundance by up to 75\% \citep{branson2016}, although the effects are often short-lived. Direct effects of fire include adult and nymphal mortality \citep{bock1991}, and egg mortality due to soil heating \citep{branson2007, branson2013, branson2016, vermeire2004}. Indirect effects related to microclimate, soil properties, and plant community compositional changes can also alter grasshopper abundance in burned areas \citep{vanwingerden1991,schirmel2011, evans1983,matenaar2014, meyer2002}. Therefore, fire could be a sustainable low-cost alternative to conventional control of economically-damaging grasshopper outbreaks \textemdash broad-scale chemical applications \citep{branson2006}, which are expensive, unreliable, and have non-target effects on beneficial arthropods. In addition, ecosystem services provided by non-pest grasshopper species are lost when insecticides are used to control grasshopper outbreaks \citep{joern2000}. Longer-term assessment of grasshopper dynamics in burned and unburned areas are needed to determine the potential for fire management for reducing outbreaks of economically damaging grasshopper species.  
+
+Future research should also assess the impacts of fire at larger scales and the interaction of fire with other disturbances such as drought and livestock grazing. While the present study found feedbacks between fire, crude protein content of plants, and grasshopper abundance and consumption, fire was applied to small discrete plots. Studies of fire-herbivore feedbacks at multiple scales show that small-scale fires facilitate feedbacks, resulting in grazing laws that maintain high crude protein for longer durations \citep{cromsigt2008}. Large-scale fires, however, result in more dispersed herbivore distribution that can homogenize plant nutritional status and structure as areas escape herbivory \citep{archibald2005}, lessening the attraction of the burned area to herbivores over time \citep{donaldson2018}. Competition with livestock and livestock grazing impacts on grasshopper habitat could alter fire, crude protein, grasshopper feedbacks \citep{onsager2000a, oneill2003}. Drought can enhance differences in protein content between unburned and burned vegetation, increasing herbivore attraction to burned areas \citep{augustine2014, yoganand2014}. 
+
+
 
 \backmatter
 
 
 \bmhead{Acknowledgments}
 
-We appreciate the assistance of Cheryl Murphy, with protein analysis at LARRL, and Nichole Davis, with grasshopper identification at NPARL. 
+We appreciate the general assistance of D.F. Watson from NPARL in organizing field equipment, the assistance of Cheryl Murphy, with protein analysis at LARRL, and Nicole Davidson, with grasshopper identification at NPARL. 
 
 
 \bmhead{Conflict of Interest} 
