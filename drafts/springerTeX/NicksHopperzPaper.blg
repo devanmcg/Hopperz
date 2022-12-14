@@ -6,46 +6,46 @@ The style file: sn-basic.bst
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 Database file #1: HopperzBib.bib
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-Warning--missing publisher in schmitz2010
-You've used 31 entries,
+Warning--missing institution in Rcore2020
+You've used 58 entries,
             3546 wiz_defined-function locations,
-            934 strings with 12790 characters,
-and the built_in function-call counts, 36934 in all, are:
-= -- 4487
-> -- 967
-< -- 17
-+ -- 510
-- -- 286
-* -- 2378
-:= -- 4138
-add.period$ -- 55
-call.type$ -- 31
-change.case$ -- 254
-chr.to.int$ -- 31
-cite$ -- 32
-duplicate$ -- 3630
-empty$ -- 2327
-format.name$ -- 386
-if$ -- 7624
+            1128 strings with 20118 characters,
+and the built_in function-call counts, 73684 in all, are:
+= -- 9241
+> -- 1666
+< -- 37
++ -- 960
+- -- 488
+* -- 4587
+:= -- 7876
+add.period$ -- 110
+call.type$ -- 58
+change.case$ -- 483
+chr.to.int$ -- 58
+cite$ -- 59
+duplicate$ -- 7463
+empty$ -- 4529
+format.name$ -- 684
+if$ -- 15257
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 238
-newline$ -- 102
-num.names$ -- 126
-pop$ -- 1167
+missing$ -- 477
+newline$ -- 183
+num.names$ -- 236
+pop$ -- 2373
 preamble$ -- 1
-purify$ -- 225
+purify$ -- 399
 quote$ -- 0
-skip$ -- 1925
+skip$ -- 4031
 stack$ -- 0
-substring$ -- 2640
-swap$ -- 2515
-text.length$ -- 2
+substring$ -- 5410
+swap$ -- 5387
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 270
+type$ -- 510
 warning$ -- 1
-while$ -- 197
+while$ -- 387
 width$ -- 0
-write$ -- 370
+write$ -- 724
 (There was 1 warning)

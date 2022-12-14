@@ -1,4 +1,4 @@
-\begin{thebibliography}{31}
+\begin{thebibliography}{58}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -6,174 +6,347 @@
 \providecommand{\eprint}[2][]{\url{#2}}
  \bibcommenthead
 
+\bibitem[{Allred et~al(2011)Allred, Fuhlendorf, Engle, and Elmore}]{allred2011}
+Allred BW, Fuhlendorf SD, Engle DM, et~al (2011) Ungulate preference for burned
+  patches reveals strength of fire–grazing interaction. Ecology and Evolution
+  1(2):132--144. \doi{10.1002/ece3.12},
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/ece3.12}
+
+\bibitem[{Archibald et~al(2005)Archibald, Bond, Stock, and
+  Fairbanks}]{archibald2005}
+Archibald S, Bond W, Stock W, et~al (2005) Shaping the landscape: fire–grazer
+  interactions in an {African} savanna. Ecological applications 15(1):96--109.
+  Publisher: Wiley Online Library
+
+\bibitem[{Augustine and Derner(2014)}]{augustine2014}
+Augustine DJ, Derner JD (2014) Controls over the strength and timing of
+  fire–grazer interactions in a semi‐arid rangeland. Journal of Applied
+  Ecology 51(1):242--250. Publisher: Wiley Online Library
+
+\bibitem[{Bauer and Kenyeres(2007)}]{bauer2007}
+Bauer N, Kenyeres Z (2007) Seasonal changes of microclimatic conditions in
+  grasslands and its influence on orthopteran assemblages. Biologia
+  62(6):742--748. Publisher: De Gruyter
+
+\bibitem[{Behmer(2009)}]{behmer2009}
+Behmer ST (2009) Insect {Herbivore} {Nutrient} {Regulation}. Annual Review of
+  Entomology 54(1):165--187. \doi{10.1146/annurev.ento.54.110807.090537},
+  \urlprefix\url{https://doi.org/10.1146/annurev.ento.54.110807.090537}
+
 \bibitem[{Behmer and Joern(2008)}]{behmer2008}
 Behmer ST, Joern A (2008) Coexisting generalist herbivores occupy unique
   nutritional feeding niches. Proceedings of the National Academy of Sciences
-  105(6):1977--1982. \doi{10.1073/pnas.0711870105}
+  105(6):1977--1982. \doi{10.1073/pnas.0711870105},
+  \urlprefix\url{http://www.pnas.org/cgi/doi/10.1073/pnas.0711870105}
 
 \bibitem[{Belovsky and Slade(1995)}]{belovsky1995}
-Belovsky GE, Slade JB (1995) Dynamics of two {{Montana}} grasshopper
-  populations: Relationships among weather, food abundance and intraspecific
-  competition. Oecologia 101(3):383--396. \doi{10.1007/BF00328826}
+Belovsky GE, Slade JB (1995) Dynamics of two {Montana} grasshopper populations:
+  relationships among weather, food abundance and intraspecific competition.
+  Oecologia 101(3):383--396. \doi{10.1007/BF00328826},
+  \urlprefix\url{http://link.springer.com/10.1007/BF00328826}
+
+\bibitem[{Bock and Bock(1991)}]{bock1991}
+Bock CE, Bock JH (1991) Response of grasshoppers ({Orthoptera}: {Acrididae}) to
+  wildfire in a southeastern {Arizona} grassland. American Midland Naturalist
+  pp 162--167. Publisher: JSTOR
 
 \bibitem[{Bond(2022)}]{bond2022}
-Bond WJ (2022) Out of the shadows: Ecology of open ecosystems. Plant Ecology \&
-  Diversity pp 1--18. \doi{10.1080/17550874.2022.2034065}
+Bond WJ (2022) Out of the shadows: ecology of open ecosystems. Plant Ecology \&
+  Diversity pp 1--18. \doi{10.1080/17550874.2022.2034065},
+  \urlprefix\url{https://doi.org/10.1080/17550874.2022.2034065}
+
+\bibitem[{Branson(2014)}]{branson2014}
+Branson DH (2014) Influence of a large late summer precipitation event on food
+  limitation and grasshopper population dynamics in a northern {Great} {Plains}
+  grassland. Environmental Entomology 37(3):686--695. Publisher: Entomological
+  Society of America
+
+\bibitem[{Branson and Vermeire(2007)}]{branson2007}
+Branson DH, Vermeire LT (2007) Grasshopper egg mortality mediated by
+  oviposition tactics and fire intensity. Ecological Entomology 32(1):128--134.
+  Publisher: Wiley Online Library
+
+\bibitem[{Branson and Vermeire(2013)}]{branson2013}
+Branson DH, Vermeire LT (2013) Heat {Dosage} and {Oviposition} {Depth}
+  {Influence} {Egg} {Mortality} of {Two} {Common} {Rangeland} {Grasshopper}
+  {Species}. Rangeland Ecology \& Management 66(1):110--113.
+  \doi{10.2111/REM-D-11-00187.1},
+  \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S1550742413500078}
+
+\bibitem[{Branson and Vermeire(2016)}]{branson2016}
+Branson DH, Vermeire LT (2016) Grasshopper responses to fire and postfire
+  grazing in the {Northern} {Great} {Plains} vary among species. Rangeland
+  Ecology \& Management 69(2):144--149. Publisher: Elsevier
 
 \bibitem[{Branson et~al(2006)Branson, Joern, and Sword}]{branson2006}
-Branson DH, Joern A, Sword GA (2006) Sustainable {{Management}} of {{Insect
-  Herbivores}} in {{Grassland Ecosystems}}: {{New Perspectives}} in
-  {{Grasshopper Control}}. BioScience 56(9):743--755.
-  \doi{10.1641/0006-3568(2006)56[743:SMOIHI]2.0.CO;2}
+Branson DH, Joern A, Sword GA (2006) Sustainable {Management} of {Insect}
+  {Herbivores} in {Grassland} {Ecosystems}: {New} {Perspectives} in
+  {Grasshopper} {Control}. BioScience 56(9):743--755.
+  \doi{10.1641/0006-3568(2006)56[743:SMOIHI]2.0.CO;2},
+  \urlprefix\url{https://doi.org/10.1641/0006-3568(2006)56[743:SMOIHI]2.0.CO;2}
+
+\bibitem[{Cappuccino and Price(1995)}]{cappuccino1995}
+Cappuccino N, Price PW (1995) Population dynamics: new approaches and
+  synthesis. Academic Press, SanDiego, CA, USA
 
 \bibitem[{Cease et~al(2015)Cease, Elser, Fenichel, Hadrich, Harrison, and
   Robinson}]{cease2015}
-Cease AJ, Elser JJ, Fenichel EP, et~al (2015) Living {{With Locusts}}:
-  {{Connecting Soil Nitrogen}}, {{Locust Outbreaks}}, {{Livelihoods}}, and
-  {{Livestock Markets}}. BioScience 65(6):551--558. \doi{10.1093/biosci/biv048}
+Cease AJ, Elser JJ, Fenichel EP, et~al (2015) Living {With} {Locusts}:
+  {Connecting} {Soil} {Nitrogen}, {Locust} {Outbreaks}, {Livelihoods}, and
+  {Livestock} {Markets}. BioScience 65(6):551--558.
+  \doi{10.1093/biosci/biv048},
+  \urlprefix\url{https://doi.org/10.1093/biosci/biv048}
 
-\bibitem[{Derner et~al(2018)Derner, Briske, Reeves, {Brown-Brandl}, Meehan,
-  Blumenthal, Travis, Augustine, Wilmer, Scasta, Hendrickson, Volesky, Edwards,
-  and Peck}]{derner2018}
-Derner J, Briske D, Reeves M, et~al (2018) Vulnerability of grazing and
-  confined livestock in the {{Northern Great Plains}} to projected mid- and
-  late-twenty-first century climate. Climatic Change 146(1):19--32.
-  \doi{10.1007/s10584-017-2029-6}
+\bibitem[{Cromsigt and Olff(2008)}]{cromsigt2008}
+Cromsigt JP, Olff H (2008) Dynamics of grazing lawn formation: an experimental
+  test of the role of scale‐dependent processes. Oikos 117(10):1444--1452.
+  Publisher: Wiley Online Library
 
-\bibitem[{Fartmann et~al(2012)Fartmann, Kr{\"a}mer, Stelzner, and
+\bibitem[{Donaldson et~al(2018)Donaldson, Archibald, Govender, Pollard, Luhdo,
+  and Parr}]{donaldson2018}
+Donaldson JE, Archibald S, Govender N, et~al (2018) Ecological engineering
+  through fire-herbivory feedbacks drives the formation of savanna grazing
+  lawns. Journal of Applied Ecology 55(1):225--235.
+  \doi{10.1111/1365-2664.12956},
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/1365-2664.12956},
+  \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2664.12956
+
+\bibitem[{Evans et~al(1983)Evans, Rogers, and Opfermann}]{evans1983}
+Evans EW, Rogers RA, Opfermann DJ (1983) Sampling grasshoppers ({Orthoptera}:
+  {Acrididae}) on burned and unburned tallgrass prairie: night trapping vs.
+  sweeping. Environmental Entomology 12(5):1449--1454. Publisher: Oxford
+  University Press Oxford, UK
+
+\bibitem[{Fartmann et~al(2012)Fartmann, Krämer, Stelzner, and
   Poniatowski}]{fartmann2012}
-Fartmann T, Kr{\"a}mer B, Stelzner F, et~al (2012) Orthoptera as ecological
+Fartmann T, Krämer B, Stelzner F, et~al (2012) Orthoptera as ecological
   indicators for succession in steppe grassland. Ecological Indicators
-  20:337--344. \doi{10.1016/j.ecolind.2012.03.002}
+  20:337--344. \doi{10.1016/j.ecolind.2012.03.002},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1470160X1200091X}
+
+\bibitem[{Gardiner and Dover(2008)}]{gardiner2008}
+Gardiner T, Dover J (2008) Is microclimate important for {Orthoptera} in open
+  landscapes? Journal of Insect Conservation 12(6):705--709. Publisher:
+  Springer
+
+\bibitem[{Hawlena and Schmitz(2010)}]{hawlena2010}
+Hawlena D, Schmitz OJ (2010) Herbivore physiological response to predation risk
+  and implications for ecosystem nutrient dynamics. Proceedings of the National
+  Academy of Sciences 107(35):15,503--15,507. Publisher: National Acad Sciences
 
 \bibitem[{Hewitt and Onsager(1983)}]{hewitt1983}
 Hewitt GB, Onsager JA (1983) Control of grasshoppers on rangeland in the
-  {{United States}}\textendash a perspective. Journal of Range Management
-  36(2):202--207
+  {United} {States}–a perspective. Journal of Range Management 36(2):202--207
 
-\bibitem[{Humphreys et~al(2022)Humphreys, Srygley, and Branson}]{humphreys2022}
-Humphreys JM, Srygley RB, Branson DH (2022) Geographic {{Variation}} in
-  {{Migratory Grasshopper Recruitment}} under {{Projected Climate Change}}.
-  Geographies 2(1):12--30. \doi{10.3390/geographies2010003}
+\bibitem[{Ibanez et~al(2013)Ibanez, Manneville, Miquel, Taberlet, Valentini,
+  Aubert, Coissac, Colace, Duparc, and Lavorel}]{ibanez2013}
+Ibanez S, Manneville O, Miquel C, et~al (2013) Plant functional traits reveal
+  the relative contribution of habitat and food preferences to the diet of
+  grasshoppers. Oecologia 173(4):1459--1470. Publisher: Springer
+
+\bibitem[{Joern(2000)}]{joern2000}
+Joern A (2000) What are the consequences of non-linear ecological interactions
+  for grasshopper control strategies? In: Lockwood JA, Latchininsky AV (eds)
+  Grasshoppers and grassland health: {Managing} grasshopper outbreaks without
+  risking environmental disaster. Kluwer Academic, Boston, MA, p 131--144
 
 \bibitem[{Joern(2004)}]{joern2004}
-Joern A (2004) Variation in {{Grasshopper}} ({{Acrididae}}) {{Densities}} in
-  {{Response}} to {{Fire Frequency}} and {{Bison Grazing}} in {{Tallgrass
-  Prairie}}. Environmental Entomology 33(6):1617--1625.
-  \doi{10.1603/0046-225X-33.6.1617}
-
-\bibitem[{Joern and Behmer(1998)}]{joern1998}
-Joern A, Behmer ST (1998) Impact of diet quality on demographic attributes in
-  adult grasshoppers and the nitrogen limitation hypothesis. Ecological
-  Entomology 23(2):174--184. \doi{10.1046/j.1365-2311.1998.00112.x}
+Joern A (2004) Variation in {Grasshopper} ({Acrididae}) {Densities} in
+  {Response} to {Fire} {Frequency} and {Bison} {Grazing} in {Tallgrass}
+  {Prairie}. Environmental Entomology 33(6):1617--1625.
+  \doi{10.1603/0046-225X-33.6.1617},
+  \urlprefix\url{https://doi.org/10.1603/0046-225X-33.6.1617}
 
 \bibitem[{Joern and Laws(2013)}]{joern2013}
-Joern A, Laws AN (2013) Ecological {{Mechanisms Underlying Arthropod Species
-  Diversity}} in {{Grasslands}}. Annual Review of Entomology 58(1):19--36.
-  \doi{10.1146/annurev-ento-120811-153540}
+Joern A, Laws AN (2013) Ecological {Mechanisms} {Underlying} {Arthropod}
+  {Species} {Diversity} in {Grasslands}. Annual Review of Entomology
+  58(1):19--36. \doi{10.1146/annurev-ento-120811-153540},
+  \urlprefix\url{https://www.annualreviews.org/doi/10.1146/annurev-ento-120811-153540}
+
+\bibitem[{Joern et~al(2012)Joern, Provin, and Behmer}]{joern2012}
+Joern A, Provin T, Behmer ST (2012) Not just the usual suspects: insect
+  herbivore populations and communities are associated with multiple plant
+  nutrients. Ecology 93(5):1002--1015. Publisher: Wiley Online Library
+
+\bibitem[{Jonas and Joern(2008)}]{jonas2008}
+Jonas JL, Joern A (2008) Host‐plant quality alters grass/forb consumption by
+  a mixed‐feeding insect herbivore, {Melanoplus} bivittatus ({Orthoptera}:
+  {Acrididae}). Ecological Entomology 33(4):546--554. Publisher: Wiley Online
+  Library
 
 \bibitem[{Kietzka et~al(2021)Kietzka, Lecoq, and Samways}]{kietzka2021}
-Kietzka GJ, Lecoq M, Samways MJ (2021) Ecological and {{Human Diet Value}} of
-  {{Locusts}} in a {{Changing World}}. Agronomy 11(9).
+Kietzka GJ, Lecoq M, Samways MJ (2021) Ecological and {Human} {Diet} {Value} of
+  {Locusts} in a {Changing} {World}. Agronomy 11(9).
   \doi{10.3390/agronomy11091856}
 
 \bibitem[{Le~Gall et~al(2019)Le~Gall, Overson, and Cease}]{legall2019}
-Le~Gall M, Overson R, Cease A (2019) A {{Global Review}} on {{Locusts}}
-  ({{Orthoptera}}: {{Acrididae}}) and {{Their Interactions With Livestock
-  Grazing Practices}}. Frontiers in Ecology and Evolution 7
+Le~Gall M, Overson R, Cease A (2019) A {Global} {Review} on {Locusts}
+  ({Orthoptera}: {Acrididae}) and {Their} {Interactions} {With} {Livestock}
+  {Grazing} {Practices}. Frontiers in Ecology and Evolution 7.
+  \urlprefix\url{https://www.frontiersin.org/article/10.3389/fevo.2019.00263}
 
-\bibitem[{Matenaar et~al(2014)Matenaar, Br{\"o}der, Bazelet, and
+\bibitem[{Lopes and Vasconcelos(2011)}]{lopes2011}
+Lopes CT, Vasconcelos HL (2011) Fire increases insect herbivory in a
+  {Neotropical} savanna. Biotropica 43(5):612--618. Publisher: Wiley Online
+  Library
+
+\bibitem[{Matenaar et~al(2014)Matenaar, Bröder, Bazelet, and
   Hochkirch}]{matenaar2014}
-Matenaar D, Br{\"o}der L, Bazelet CS, et~al (2014) Persisting in a windy
-  habitat: Population ecology and behavioral adaptations of two endemic
-  grasshopper species in the {{Cape}} region ({{South Africa}}). Journal of
-  Insect Conservation 18(3):447--456. \doi{10.1007/s10841-014-9654-4}
+Matenaar D, Bröder L, Bazelet CS, et~al (2014) Persisting in a windy habitat:
+  population ecology and behavioral adaptations of two endemic grasshopper
+  species in the {Cape} region ({South} {Africa}). Journal of Insect
+  Conservation 18(3):447--456. \doi{10.1007/s10841-014-9654-4},
+  \urlprefix\url{https://doi.org/10.1007/s10841-014-9654-4}
 
 \bibitem[{McGranahan and Wonkka(2021)}]{mcgranahan2021}
-McGranahan DA, Wonkka CL (2021) Ecology of {{Fire-Dependent Ecosystems}}:
-  {{Wildland Fire Science}}, {{Policy}}, and {{Management}}. {CRC Press}, {Boca
-  Raton, FL}
+McGranahan DA, Wonkka CL (2021) Ecology of {Fire}-{Dependent} {Ecosystems}:
+  {Wildland} {Fire} {Science}, {Policy}, and {Management}. CRC Press, Boca
+  Raton, FL
 
 \bibitem[{Meyer et~al(2002)Meyer, Whiles, and Charlton}]{meyer2002}
-Meyer CK, Whiles MR, Charlton RE (2002) Life {{History}}, {{Secondary
-  Production}}, and {{Ecosystem Significance}} of {{Acridid Grasshoppers}} in
-  {{Annually Burned}} and {{Unburned Tallgrass Prairie}}. American Entomologist
-  48(1):52--61. \doi{10.1093/ae/48.1.52}
+Meyer CK, Whiles MR, Charlton RE (2002) Life {History}, {Secondary}
+  {Production}, and {Ecosystem} {Significance} of {Acridid} {Grasshoppers} in
+  {Annually} {Burned} and {Unburned} {Tallgrass} {Prairie}. American
+  Entomologist 48(1):52--61. \doi{10.1093/ae/48.1.52},
+  \urlprefix\url{https://doi.org/10.1093/ae/48.1.52}
 
 \bibitem[{Millard(2013)}]{millard2013}
-Millard SP (2013) {{EnvStats}}: {{An R Package}} for {{Environmental
-  Statistics}}. {Springer}, {New York}
+Millard SP (2013) {EnvStats}: {An} {R} {Package} for {Environmental}
+  {Statistics}. Springer, New York, \urlprefix\url{https://www.springer.com}
 
 \bibitem[{Olfert et~al(2021)Olfert, Weiss, Giffen, and Vankosky}]{olfert2021}
-Olfert O, Weiss RM, Giffen D, et~al (2021) Modeling {{Ecological Dynamics}} of
-  a {{Major Agricultural Pest Insect}} ( {{{\emph{Melanoplus sanguinipes}}}} ;
-  {{Orthoptera}}: {{Acrididae}}): {{A Cohort-Based Approach Incorporating}} the
-  {{Effects}} of {{Weather}} on {{Grasshopper Development}} and {{Abundance}}.
-  Journal of Economic Entomology 114(1):122--130. \doi{10.1093/jee/toaa254}
+Olfert O, Weiss RM, Giffen D, et~al (2021) Modeling {Ecological} {Dynamics} of
+  a {Major} {Agricultural} {Pest} {Insect} ( {\textless}span
+  class="nocase"{\textgreater}\textit{{Melanoplus}
+  sanguinipes}{\textless}/span{\textgreater} ; {Orthoptera}: {Acrididae}): {A}
+  {Cohort}-{Based} {Approach} {Incorporating} the {Effects} of {Weather} on
+  {Grasshopper} {Development} and {Abundance}. Journal of Economic Entomology
+  114(1):122--130. \doi{10.1093/jee/toaa254},
+  \urlprefix\url{https://academic.oup.com/jee/article/114/1/122/5976284}
+
+\bibitem[{O’Neill et~al(2003)O’Neill, Olson, Rolston, Wallander, Larson,
+  and Seibert}]{oneill2003}
+O’Neill KM, Olson BE, Rolston MG, et~al (2003) Effects of livestock grazing
+  on rangeland grasshopper ({Orthoptera}: {Acrididae}) abundance. Agriculture,
+  Ecosystems \& Environment 97(1):51--64. \doi{10.1016/S0167-8809(03)00136-1},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0167880903001361}
 
 \bibitem[{Onsager(1977)}]{onsager1977}
-Onsager JA (1977) Comparison of {{Five Methods}} for {{Estimating Density}} of
-  {{Rangeland Grasshoppers}}. Journal of Economic Entomology 70(2):187--190.
-  \doi{10.1093/jee/70.2.187}
+Onsager JA (1977) Comparison of {Five} {Methods} for {Estimating} {Density} of
+  {Rangeland} {Grasshoppers}. Journal of Economic Entomology 70(2):187--190.
+  \doi{10.1093/jee/70.2.187},
+  \urlprefix\url{https://doi.org/10.1093/jee/70.2.187}
 
-\bibitem[{Onsager and Olfert(2000)}]{onsager2000}
-Onsager JA, Olfert O (2000) What {{Tools}} have {{Potential}} for {{Grasshopper
-  Pest Management}}? In: Lockwood JA, Latchininsky AV, Sergeev MG (eds)
-  Grasshoppers and {{Grassland Health}}: {{Managing Grasshopper Outbreaks}}
-  without {{Risking Environmental Disaster}}. {Springer Netherlands},
-  {Dordrecht}, p 145--156
-
-\bibitem[{Padbury et~al(2002)Padbury, Waltman, Caprio, Coen, McGinn, Mortensen,
-  Nielsen, and Sinclair}]{padbury2002}
-Padbury G, Waltman S, Caprio J, et~al (2002) Agroecosystems and {{Land
-  Resources}} of the {{Northern Great Plains}}. Agronomy Journal
-  94(2):251--261. \doi{10.2134/agronj2002.2510}
+\bibitem[{Onsager and Olfert(2000)}]{onsager2000a}
+Onsager JA, Olfert O (2000) What {Tools} have {Potential} for {Grasshopper}
+  {Pest} {Management}? In: Lockwood JA, Latchininsky AV, Sergeev MG (eds)
+  Grasshoppers and {Grassland} {Health}: {Managing} {Grasshopper} {Outbreaks}
+  without {Risking} {Environmental} {Disaster}. Springer Netherlands,
+  Dordrecht, p 145--156,
+  \urlprefix\url{https://doi.org/10.1007/978-94-011-4337-0_10}
 
 \bibitem[{Parker and Salzman(1985)}]{parker1985}
-Parker MA, Salzman AG (1985) Herbivore {{Exclosure}} and {{Competitor
-  Removal}}: {{Effects}} on {{Juvenile Survivorship}} and {{Growth}} in the
-  {{Shrub Gutierrezia Microcephala}}. Journal of Ecology 73(3):903--913.
-  \doi{10.2307/2260156}
+Parker MA, Salzman AG (1985) Herbivore {Exclosure} and {Competitor} {Removal}:
+  {Effects} on {Juvenile} {Survivorship} and {Growth} in the {Shrub}
+  {Gutierrezia} {Microcephala}. Journal of Ecology 73(3):903--913.
+  \doi{10.2307/2260156}, \urlprefix\url{http://www.jstor.org/stable/2260156}
+
+\bibitem[{Price(1991)}]{price1991}
+Price PW (1991) The plant vigor hypothesis and herbivore attack. Oikos pp
+  244--251. Publisher: JSTOR
 
 \bibitem[{{R Core Team}(2020)}]{Rcore2020}
-{R Core Team} (2020) R: {{A}} Language and Environment for Statistical
-  Computing. {R Foundation for Statistical Computing}, {Vienna, Austria}
+{R Core Team} (2020) R: {A} language and environment for statistical computing.
+  manual, Vienna, Austria, \urlprefix\url{https://www.R-project.org/},
+  tex.organization: R Foundation for Statistical Computing
+
+\bibitem[{Radho‐Toly et~al(2001)Radho‐Toly, Majer, and
+  Yates}]{radhotoly2001}
+Radho‐Toly S, Majer JD, Yates C (2001) Impact of fire on leaf nutrients,
+  arthropod fauna and herbivory of native and exotic eucalypts in {Kings}
+  {Park}, {Perth}, {Western} {Australia}. Austral Ecology 26(5):500--506.
+  Publisher: Wiley Online Library
+
+\bibitem[{Schirmel et~al(2011)Schirmel, Mantilla-Contreras, Blindow, and
+  Fartmann}]{schirmel2011}
+Schirmel J, Mantilla-Contreras J, Blindow I, et~al (2011) Impacts of succession
+  and grass encroachment on heathland {Orthoptera}. Journal of Insect
+  Conservation 15(5):633--642. Publisher: Springer
 
 \bibitem[{Schirmel et~al(2019)Schirmel, Gerlach, and Buhk}]{schirmel2019}
 Schirmel J, Gerlach R, Buhk C (2019) Disentangling the role of management,
-  vegetation structure, and plant quality for {{Orthoptera}} in lowland
-  meadows. Insect Science 26(2):366--378. \doi{10.1111/1744-7917.12528}
+  vegetation structure, and plant quality for {Orthoptera} in lowland meadows.
+  Insect Science 26(2):366--378. \doi{10.1111/1744-7917.12528},
+  \urlprefix\url{https://doi.org/10.1111/1744-7917.12528}
 
-\bibitem[{Schmitz(2010)}]{schmitz2010}
-Schmitz OJ (2010) Resolving {{Ecosystem Complexity}} ({{MPB-47}})
+\bibitem[{Schmitz et~al(1997)Schmitz, Beckerman, and O’Brien}]{schmitz1997}
+Schmitz OJ, Beckerman AP, O’Brien KM (1997) Behaviorally mediated trophic
+  cascades: effects of predation risk on food web interactions. Ecology
+  78(5):1388--1399. Publisher: Wiley Online Library
+
+\bibitem[{Sensenig et~al(2010)Sensenig, Demment, and Laca}]{sensenig2010}
+Sensenig RL, Demment MW, Laca EA (2010) Allometric scaling predicts preferences
+  for burned patches in a guild of {East} {African} grazers. Ecology
+  91(10):2898--2907. \doi{10.1890/09-1673.1},
+  \urlprefix\url{https://doi.org/10.1890/09-1673.1}
 
 \bibitem[{Spiess et~al(2020)Spiess, McGranahan, Geaumont, Sedivec, Lakey,
   Berti, Hovick, and Limb}]{spiess2020}
-Spiess JW, McGranahan DA, Geaumont B, et~al (2020) Patch-{{Burning Buffers
-  Forage Resources}} and {{Livestock Performance}} to {{Mitigate Drought}} in
-  the {{Northern Great Plains}}. Rangeland Ecology \& Management
-  73(4):473--481. \doi{10.1016/j.rama.2020.03.003}
+Spiess JW, McGranahan DA, Geaumont B, et~al (2020) Patch-{Burning} {Buffers}
+  {Forage} {Resources} and {Livestock} {Performance} to {Mitigate} {Drought} in
+  the {Northern} {Great} {Plains}. Rangeland Ecology \& Management
+  73(4):473--481. \doi{10.1016/j.rama.2020.03.003},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1550742420300282}
 
-\bibitem[{Srygley and Jaronski(2022)}]{srygley2022}
-Srygley RB, Jaronski ST (2022) Increasing temperature reduces cuticular
-  melanism and immunity to fungal infection in a migratory insect. Ecological
-  Entomology 47(1):109--113. \doi{10.1111/een.13088}
+\bibitem[{Stein et~al(1992)Stein, Price, Abrahamson, and Sacchi}]{stein1992}
+Stein SJ, Price PW, Abrahamson WG, et~al (1992) The effect of fire on
+  stimulating willow regrowth and subsequent attack by grasshoppers and elk.
+  Oikos pp 190--196. Publisher: JSTOR
+
+\bibitem[{Van~Wingerden et~al(1991)Van~Wingerden, Musters, and
+  Maaskamp}]{vanwingerden1991}
+Van~Wingerden W, Musters J, Maaskamp F (1991) The influence of temperature on
+  the duration of egg development in {West} {European} grasshoppers
+  ({Orthoptera}: {Acrididae}). Oecologia 87(3):417--423. Publisher: Springer
 
 \bibitem[{Vermeire et~al(2004)Vermeire, Mitchell, Fuhlendorf, and
   Wester}]{vermeire2004}
 Vermeire LT, Mitchell RB, Fuhlendorf SD, et~al (2004) Selective control of
   rangeland grasshoppers with prescribed fire. Journal of Range Management
-  57(1):29--33. \doi{10.2111/1551-5028(2004)057[0029:SCORGW]2.0.CO;2}
+  57(1):29--33. \doi{10.2111/1551-5028(2004)057[0029:SCORGW]2.0.CO;2},
+  \urlprefix\url{https://bioone.org/journals/journal-of-range-management/volume-57/issue-1/1551-5028_2004_057_0029_SCORGW_2.0.CO_2/Selective-control-of-rangeland-grasshoppers-with-prescribed-fire/10.2111/1551-5028(2004)057[0029:SCORGW]2.0.CO;2.full}
+
+\bibitem[{Vieira et~al(1996)Vieira, Andrade, and Price}]{vieira1996}
+Vieira EM, Andrade I, Price PW (1996) Fire effects on a {Palicourea} rigida
+  ({Rubiaceae}) gall midge: a test of the plant vigor hypothesis. Biotropica pp
+  210--217. Publisher: JSTOR
+
+\bibitem[{Wanchuk et~al(2021)Wanchuk, McGranahan, Sedivec, Swanson, Hovick, and
+  Limb}]{wanchuk2021}
+Wanchuk MR, McGranahan DA, Sedivec KK, et~al (2021) Contrasts in forage mineral
+  concentration with patch-burn grazing: a preliminary analysis. Translational
+  Animal Science 5(Supplement\_S1):S75--S79. \doi{10.1093/tas/txab173},
+  \urlprefix\url{https://doi.org/10.1093/tas/txab173}
+
+\bibitem[{White(2012)}]{white2012}
+White TC (2012) The inadequate environment: nitrogen and the abundance of
+  animals. Springer Science \& Business Media, Berlin, Germany
+
+\bibitem[{Yoganand and Owen‐Smith(2014)}]{yoganand2014}
+Yoganand K, Owen‐Smith N (2014) Restricted habitat use by an {African}
+  savanna herbivore through the seasonal cycle: key resources concept expanded.
+  Ecography 37(10):969--982. Publisher: Wiley Online Library
 
 \bibitem[{Zhang et~al(2011)Zhang, Han, and Elser}]{zhang2011}
-Zhang G, Han X, Elser JJ (2011) Rapid top\textendash down regulation of plant
-  {{C}}:{{N}}:{{P}} stoichiometry by grasshoppers in an {{Inner Mongolia}}
-  grassland ecosystem. Oecologia 166(1):253--264.
-  \doi{10.1007/s00442-011-1904-5}
+Zhang G, Han X, Elser JJ (2011) Rapid top–down regulation of plant
+  {C}:{N}:{P} stoichiometry by grasshoppers in an {Inner} {Mongolia} grassland
+  ecosystem. Oecologia 166(1):253--264. \doi{10.1007/s00442-011-1904-5},
+  \urlprefix\url{https://doi.org/10.1007/s00442-011-1904-5}
 
-\bibitem[{Zhang et~al(2019)Zhang, Lecoq, Latchininsky, and Hunter}]{zhang2019a}
-Zhang L, Lecoq M, Latchininsky A, et~al (2019) Locust and {{Grasshopper
-  Management}}. Annual Review of Entomology 64(1):15--34.
-  \doi{10.1146/annurev-ento-011118-112500}
+\bibitem[{Zhang et~al(2019)Zhang, Lecoq, Latchininsky, and Hunter}]{zhang2019}
+Zhang L, Lecoq M, Latchininsky A, et~al (2019) Locust and {Grasshopper}
+  {Management}. Annual Review of Entomology 64(1):15--34.
+  \doi{10.1146/annurev-ento-011118-112500},
+  \urlprefix\url{https://www.annualreviews.org/doi/10.1146/annurev-ento-011118-112500}
 
 \end{thebibliography}

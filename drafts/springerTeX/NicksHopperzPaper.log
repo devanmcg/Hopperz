@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2022.6.15)  8 NOV 2022 15:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2022.6.15)  13 DEC 2022 18:54
 entering extended mode
 **./NicksHopperzPaper.tex
 (NicksHopperzPaper.tex
@@ -788,65 +788,65 @@ LaTeX Info: Redefining \nameref on input line 18.
 \@outlinefile=\write3
 \openout3 = `NicksHopperzPaper.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <17.06374> on input line 74
+LaTeX Font Info:    Calculating math sizes for size <17.06374> on input line 76
 .
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.53186> not available
-(Font)              size <9> substituted on input line 74.
+(Font)              size <9> substituted on input line 76.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <8.53186> not available
-(Font)              size <9> substituted on input line 74.
+(Font)              size <9> substituted on input line 76.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <8.53186> not available
-(Font)              size <9> substituted on input line 74.
+(Font)              size <9> substituted on input line 76.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <8.53186> not available
-(Font)              size <9> substituted on input line 74.
+(Font)              size <9> substituted on input line 76.
 
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 74.
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 76.
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 74.
+(Font)              size <8> substituted on input line 76.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <8.43146> not available
-(Font)              size <8> substituted on input line 74.
+(Font)              size <8> substituted on input line 76.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 74.
+(Font)              size <8> substituted on input line 76.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 74.
+(Font)              size <8> substituted on input line 76.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 74.
+(Font)              size <8> substituted on input line 76.
 
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 74
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 76
 .
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.52061> not available
-(Font)              size <6> substituted on input line 74.
+(Font)              size <6> substituted on input line 76.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.52061> not available
-(Font)              size <6> substituted on input line 74.
+(Font)              size <6> substituted on input line 76.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.52061> not available
-(Font)              size <6> substituted on input line 74.
+(Font)              size <6> substituted on input line 76.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <5.52061> not available
-(Font)              size <6> substituted on input line 74.
+(Font)              size <6> substituted on input line 76.
 
-LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 74
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 76
 .
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -855,12 +855,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 1199) in paragraph at lines 74--74
- \OT1/cmr/m/n/9 loca-tions. The results raise fur-ther ques-tions into the mech
--a-nism 
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -899,20 +893,20 @@ Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 <removal_gg-1.pdf, id=144, 361.35pt x 289.08pt>
 File: removal_gg-1.pdf Graphic file (type pdf)
 <use removal_gg-1.pdf>
-Package pdftex.def Info: removal_gg-1.pdf  used on input line 170.
+Package pdftex.def Info: removal_gg-1.pdf  used on input line 172.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
 
-Overfull \hbox (22.76134pt too wide) in paragraph at lines 170--172
+Overfull \hbox (22.76134pt too wide) in paragraph at lines 172--174
  [][] 
  []
 
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
-77.
+80.
 (C:\Program Files\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.03749> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 177.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 180.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -921,17 +915,6 @@ Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
 [7]
-<value_gg-1.pdf, id=157, 361.35pt x 252.945pt>
-File: value_gg-1.pdf Graphic file (type pdf)
-<use value_gg-1.pdf>
-Package pdftex.def Info: value_gg-1.pdf  used on input line 184.
-(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-
-Overfull \hbox (22.76134pt too wide) in paragraph at lines 184--186
- [][] 
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -939,18 +922,28 @@ Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
 [8 <./removal_gg-1.pdf>]
-<tau_gg-1.pdf, id=171, 361.35pt x 505.89pt>
+<value_gg-1.pdf, id=167, 361.35pt x 252.945pt>
+File: value_gg-1.pdf Graphic file (type pdf)
+<use value_gg-1.pdf>
+Package pdftex.def Info: value_gg-1.pdf  used on input line 187.
+(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
+
+Overfull \hbox (22.76134pt too wide) in paragraph at lines 187--189
+ [][] 
+ []
+
+<tau_gg-1.pdf, id=170, 361.35pt x 505.89pt>
 File: tau_gg-1.pdf Graphic file (type pdf)
 <use tau_gg-1.pdf>
-Package pdftex.def Info: tau_gg-1.pdf  used on input line 203.
+Package pdftex.def Info: tau_gg-1.pdf  used on input line 206.
 (pdftex.def)             Requested size: 361.34912pt x 505.88875pt.
 
-Overfull \hbox (22.76134pt too wide) in paragraph at lines 203--209
+Overfull \hbox (22.76134pt too wide) in paragraph at lines 206--212
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 23.49953pt on input line 211.
+LaTeX Warning: Float too large for page by 23.49953pt on input line 214.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -981,26 +974,13 @@ Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
 [12]
-
-Package hyperref Warning: Difference (4) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 301.
-
-
-Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 306.
-
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 310.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[13] (NicksHopperzPaper.bbl
+[13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1015,6 +995,19 @@ Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
 [15]
+
+Package hyperref Warning: Difference (4) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 247.
+
+
+Package hyperref Warning: Difference (3) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 252.
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 256.
+
+(NicksHopperzPaper.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1022,9 +1015,15 @@ Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
 [16]
-Underfull \hbox (badness 1515) in paragraph at lines 133--137
-[]\OT1/cmr/m/n/10 Parker MA, Salz-man AG (1985) Her-bi-vore Exclo-sure and Com-
-peti-tor
+Underfull \hbox (badness 2547) in paragraph at lines 32--35
+\OT1/cmr/m/n/10 of Ento-mol-ogy 54(1):165--187. [][]$https : / / doi . org / 10
+ . 1146 / annurev . ento . 54 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
+\OT1/cmr/m/n/10 110807 . 090537$[][], URL [][]$https : / / doi . org / 10 . 114
+6 / annurev . ento . 54 . 110807 .
  []
 
 
@@ -1034,14 +1033,159 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[17])
+[17]
+Underfull \hbox (badness 1596) in paragraph at lines 70--75
+\OT1/cmr/m/n/10 Range-land Ecol-ogy & Man-age-ment 66(1):110--113. [][]$https :
+ / / doi . org / 10 .
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 70--75
+\OT1/cmr/m/n/10 2111 / REM-[]D-[]11-[]00187 . 1$[][], URL [][]$https : / / link
+inghub . elsevier . com / retrieve /
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 82--87
+\OT1/cmr/m/n/10 56[743 : SMOIHI ] 2 . 0 . CO ; 2$[][], URL [][]$https : / / doi
+ . org / 10 . 1641 / 0006-[]3568(2006 )
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (1.44444pt too high) has occurred while \output is active []
 
 
-[18] (NicksHopperzPaper.aux)
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 107--113
+[]\OT1/cmr/m/n/10 Donaldson JE, Archibald S, Goven-der N, et al (2018) Eco-log-
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--113
+\OT1/cmr/m/n/10 i-cal engi-neer-ing through fire-herbivory feed-backs drives th
+e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--113
+\OT1/cmr/m/n/10 for-ma-tion of savanna graz-ing lawns. Jour-nal of Applied Ecol
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--113
+\OT1/cmr/m/n/10 ogy 55(1):225--235. [][]$https : / / doi . org / 10 . 1111 / 13
+65-[]2664 . 12956$[][], URL
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 115--119
+[]\OT1/cmr/m/n/10 Evans EW, Rogers RA, Opfer-mann DJ (1983) Sam-pling grasshop-
+pers
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 122--126
+\OT1/cmr/m/n/10 20:337--344. [][]$https : / / doi . org / 10 . 1016 / j . ecoli
+nd . 2012 . 03 . 002$[][], URL [][]$https : / /
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.44444pt too high) has occurred while \output is active []
+
+
+[19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.44444pt too high) has occurred while \output is active []
+
+
+[20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.44444pt too high) has occurred while \output is active []
+
+
+[21]
+Underfull \hbox (badness 2951) in paragraph at lines 229--233
+[]\OT1/cmr/m/n/10 O'Neill KM, Olson BE, Rol-ston MG, et al (2003) Effects of li
+ve-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.44444pt too high) has occurred while \output is active []
+
+
+[22]
+Underfull \hbox (badness 1515) in paragraph at lines 249--253
+[]\OT1/cmr/m/n/10 Parker MA, Salz-man AG (1985) Her-bi-vore Exclo-sure and Com-
+peti-tor
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 259--262
+[]\OT1/cmr/m/n/10 R Core Team (2020) R: A lan-guage and envi-ron-ment for sta-t
+is-ti-cal
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.44444pt too high) has occurred while \output is active []
+
+
+[23]
+Underfull \hbox (badness 2846) in paragraph at lines 295--300
+\OT1/cmr/m/n/10 in the North-ern Great Plains. Range-land Ecol-ogy & Man-age-me
+nt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--318
+\OT1/cmr/m/n/10 volume-[]57 / issue-[]1 / 1551-[]5028[]2004[]057[]0029[]SCORGW[
+]2 . 0 . CO[]2 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--318
+\OT1/cmr/m/n/10 Selective-[]control-[]of-[]rangeland-[]grasshoppers-[]with-[]pr
+escribed-[]re / 10 . 2111 /
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.44444pt too high) has occurred while \output is active []
+
+
+[24]
+Underfull \hbox (badness 1248) in paragraph at lines 336--339
+\OT1/cmr/m/n/10 savanna her-bi-vore through the sea-sonal cycle: key resources 
+con-cept
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.44444pt too high) has occurred while \output is active []
+
+
+[25] (NicksHopperzPaper.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
@@ -1050,13 +1194,13 @@ Package rerunfilecheck Info: File `NicksHopperzPaper.out' has not changed.
 (rerunfilecheck)             Checksum: 2EBFC7984770EAF043FBFFCB1B637C2E;1312.
  ) 
 Here is how much of TeX's memory you used:
- 14798 strings out of 478870
- 211702 string characters out of 2858660
- 541279 words of memory out of 3000000
- 32354 multiletter control sequences out of 15000+600000
- 438639 words of font info for 166 fonts, out of 8000000 for 9000
+ 14910 strings out of 478870
+ 213669 string characters out of 2858660
+ 544612 words of memory out of 3000000
+ 32433 multiletter control sequences out of 15000+600000
+ 438041 words of font info for 164 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 75i,11n,80p,744b,607s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,11n,80p,1577b,578s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\devan.mcgranahan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
 dpi600\tcrm1000.pk> <C:\Users\devan.mcgranahan\AppData\Local\MiKTeX\fonts/pk/lj
 four/jknappen/ec/dpi600\tcrm0700.pk> <C:\Users\devan.mcgranahan\AppData\Local\M
@@ -1071,14 +1215,13 @@ eX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type
 onts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.p
 fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program
  Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Pro
-gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on NicksHopperzPaper.pdf (18 pages, 333255 bytes).
+X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
+8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on NicksHopperzPaper.pdf (25 pages, 366244 bytes).
 PDF statistics:
- 430 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
+ 611 PDF objects out of 1000 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
  104 words of extra memory for PDF output out of 10000 (max. 10000000)
 
