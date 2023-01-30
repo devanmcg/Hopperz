@@ -38,11 +38,6 @@ pacman::p_load(tidyverse, readxl, wesanderson, gridExtra)
 ring = 2.5 #sum area of five rings (square meters)
 ```
 
-```{r removal_total}
-
-```
-
-
 ```{r removal_rate}
 # Calculate offtake rate
   off <- 
