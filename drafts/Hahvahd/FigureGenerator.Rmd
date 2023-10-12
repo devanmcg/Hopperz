@@ -1,0 +1,360 @@
+---
+title: Attracted by higher crude protein, grasshopper abundance and offtake increase after prescribed fire
+author: 'Nicholas Gregory Heimbuch $\cdot$ Devan Allen McGranahan $\cdot$ Carissa L. Wonkka $\cdot$ Lance Vermeire $\cdot$ David Branson' 
+bibliography: HopperzBib.bib
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    keep_md: false
+    toc: true
+    toc_float: false
+    theme: united
+    highlight: tango
+---
+
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE, fig.path = './', dev = c('png', 'pdf'))
+# knitr::opts_chunk$set(fig.width=unit(15,"cm"), fig.height=unit(10,"cm"))
+pacman::p_load(tidyverse, readxl, wesanderson, gridExtra)
+#
+# Loading data
+#
+  # Set path to main Excel file
+  fp = "../../data/HopperzR.xlsx"
+  # Treatments by plot
+  trt <- read_xlsx(fp, "Treatment")
+# biomass data
+  fb <- read_xlsx(fp, "Forage Biomass") %>%
+          full_join( trt ,
+                     by="Plot")
+# Forage quality data
+  cn<- read_xlsx(fp, "CN Analysis") %>%
+        full_join( trt,
+                   by="Plot")
+# Abundance data
+  ha<- read_xlsx(fp, "Hopper Abundance") %>%
+        full_join(trt,
+                  by="Plot")
+ring = 2.5 #sum area of five rings (square meters)
+```
+
+```{r removal_rate}
+# Calculate offtake rate
+  off <- 
+    fb %>%
+      select(Treatment, Plot, Trial, Totalweight) %>%
+      separate(Trial, into= c("Trt", "rep"), sep = " ")%>%
+      mutate(rep = case_when(
+        rep== "1"~"A", 
+        rep== "2"~"B",
+        TRUE~ rep),
+        Treatment = case_when(
+          Treatment== "Summer"~"Unburned",
+          TRUE~ Treatment),
+        days= ifelse(rep== "A", 40, 33) ) %>%
+      pivot_wider(names_from = Trt, 
+                  values_from = Totalweight) %>%
+      mutate(g_diff = (Control-Exclosure)/(Control), # offtake in grams/0.5 m^2 quadrat
+             m_diff = g_diff * 2,   # offtake in g/m^2
+             kg_diff = m_diff * 10, # offtake in kg/ha (1 g/m^2 = 10 kg/ha)
+             rate= kg_diff/days     # daily kg/ha removed
+             ) %>%
+      group_by(Plot, Treatment) %>%
+      summarize(rate = mean(rate),
+                .groups = 'drop') 
+#
+# Stats 
+#
+# 1. Test treatments against 0. 
+  off_sum <-
+    lm(rate ~ 0 + Treatment, off) %>%
+      summary() %>%
+      broom::tidy() %>%
+      rename(p = p.value) %>%
+      mutate(across(c(estimate, statistic), ~ as.character(signif(., 2))),
+             p = case_when(
+                p >= 0.05 ~ '> 0.05',
+                between(p, 0.001, 0.009) ~ '< 0.01', 
+                p < 0.001 ~ '< 0.001',
+                TRUE ~ paste0('= ', round(p, 2))   ))
+# 2. Test treatments against each other (post-hoc pairwise comparison)
+  off_tuk <-
+    lm(rate ~ Treatment, off) %>%
+      aov() %>%
+      TukeyHSD() %>%
+      broom::tidy() %>%
+      rename(p = adj.p.value) %>%
+      mutate(estimate = paste0(signif(estimate, 2)), 
+             p = case_when(
+                  p >= 0.05 ~ '> 0.05',
+                  between(p, 0.001, 0.009) ~ '< 0.01', 
+                  p < 0.001 ~ '< 0.001',
+                  TRUE ~ paste0('= ', round(p, 2))   ))
+```
+  
+```{r removal_gg, fig.width = 5, fig.height = 4}
+  off %>% 
+    mutate(rate = rate * -1) %>%
+    group_by(Treatment) %>%
+    summarize(Meandiff= mean(rate),
+              SEdiff= sd(rate)/sqrt(n())) %>%
+    ggplot()+ theme_bw(14) +
+    geom_hline(yintercept = 0, lty=3)+
+    geom_errorbar(aes(x=Treatment,
+                      ymin=Meandiff-SEdiff,
+                      ymax=Meandiff+SEdiff),
+                color = wes_palette("Darjeeling1")[4], 
+                size = 1,
+                width= 0.1) +
+    geom_point(aes(x=Treatment,
+                   y=Meandiff),
+               size = 4, 
+               pch = 24, 
+               color = wes_palette("Darjeeling1")[4], 
+               fill = wes_palette("Darjeeling1")[3], 
+               stroke = 1.25)+
+    labs(x= "Season of last burn",
+         y= "Daily removal rate\n(mean kg/ha/d ± s.e.)") + 
+    theme(panel.grid.major.x = element_blank(), 
+          axis.text.x = element_text(color = 'black'))
+```
+
+```{r total_removal, eval=FALSE}
+  fb %>%
+    select(Treatment, Plot, Trial, Totalweight) %>%
+    separate(Trial, into= c("Trt", "rep"), sep = " ")%>%
+    mutate(rep = case_when(
+      rep== "1"~"A", 
+      rep== "2"~"B",
+      TRUE~ rep),
+      Treatment = case_when(
+        Treatment== "Summer"~"Unburned",
+        TRUE~ Treatment),
+      days= ifelse(rep== "A", 40, 33) ) %>%
+    pivot_wider(names_from = Trt, 
+                values_from = Totalweight) %>%
+    mutate(prop = ( (Exclosure-Control)/(Exclosure) ) * 100)  %>%
+    group_by(Treatment) %>%
+    summarize(RemovalMean = mean(prop),
+              RemovalSEM = sd(prop)/sqrt(n()),
+              .groups = 'drop') %>%
+      ggplot()+ theme_bw(14) +
+    geom_errorbar(aes(x=Treatment,
+                      ymin=RemovalMean-RemovalSEM,
+                      ymax=RemovalMean+RemovalSEM),
+                color = wes_palette("Darjeeling1")[4], 
+                size = 1,
+                width= 0.1) +
+    geom_point(aes(x=Treatment,
+                   y=RemovalMean),
+               size = 4, 
+               pch = 24, 
+               color = wes_palette("Darjeeling1")[4], 
+               fill = wes_palette("Darjeeling1")[3], 
+               stroke = 1.25)+
+    labs(x= "Season of last burn",
+         y= "Total biomass removal\n(%, mean ± s.e.)") + 
+    theme(panel.grid.major.x = element_blank(), 
+          axis.text.x = element_text(color = 'black'))
+```
+
+```{r removal_tab}
+  fb %>%
+    select(Treatment, Plot, Trial, Totalweight) %>%
+    separate(Trial, into= c("Trt", "rep"), sep = " ")%>%
+    mutate(rep = case_when(
+      rep== "1"~"A", 
+      rep== "2"~"B",
+      TRUE~ rep),
+      Treatment = case_when(
+        Treatment== "Summer"~"Unburned",
+        TRUE~ Treatment),
+      days= ifelse(rep== "A", 40, 33) ) %>%
+    pivot_wider(names_from = Trt, 
+                values_from = Totalweight) %>%
+    mutate(prop = ( (Exclosure-Control)/(Exclosure) ) * 100)  %>%
+    group_by(Treatment) %>%
+    summarize(Mean = round(mean(prop), 1),
+              SEM = round(sd(prop)/sqrt(n()), 1),
+              .groups = 'drop') %>%
+    mutate(`Total biomass removal` = paste0(Mean, ' +/- ', SEM)) %>%
+  select(-Mean, -SEM) %>%
+  pander::pander() 
+```
+
+Standing crop was statistically-significantly lower outside of grasshopper exclosures in both fall and spring burns ($t =$ `r off_sum[1,4]`, $P$ `r off_sum[1,5]` and $t =$ `r off_sum[2,4]`, $P$ `r off_sum[2,5]`, respectively). 
+There was no difference in offtake among spring and fall burns ($P$ `r off_tuk[1,7]`), with grasshoppers removing approximately 1.0 (± 0.2) kg ha^-1^ d^-1^ in each . 
+Standing crop was not different between grasshopper exclosures and areas accessible to grasshoppers in unburned plots ($t =$ `r off_sum[3,4]`, $P$ `r off_sum[3,5]`).
+Offtake was significantly lower in unburned plots than plots burned in both the previous fall and spring ($P$ `r off_tuk[2,7]` and $P$ `r off_tuk[3,7]`, respectively). 
+
+```{r value_tab}
+# Fit the protein test model
+  pmod <- lm(Protein~Treatment*Organ, cn)
+# ANOVA
+  val_sum <- 
+     pmod %>%
+    anova() %>%
+        broom::tidy() %>%
+        rename(p = p.value, 
+               Fstat = statistic) %>%
+        mutate(Fstat = as.character(signif(Fstat, 2)),
+               p = case_when(
+                p >= 0.05 ~ '> 0.05',
+                between(p, 0.001, 0.009) ~ '< 0.01', 
+                p < 0.001 ~ '< 0.001',
+                TRUE ~ paste0('= ', round(p, 2))   ))
+bd <- filter(cn, Treatment != "Summer")$Protein
+burned_sum <- paste0(round(mean(bd), 1),
+                     '% ± ', 
+                     round((sd(bd)/sqrt(length(bd))), 1), 
+                     ' s.e.')
+# Post-hoc TUkey test on treatment pairwise comparison
+  val_tuk <-
+    pmod %>%
+      aov() %>%
+          TukeyHSD(which= "Treatment") %>%
+          broom::tidy() %>%
+          rename(p = adj.p.value) %>%
+            mutate(estimate = paste0(signif(estimate, 2)), 
+             p = case_when(
+                  p >= 0.05 ~ '> 0.05',
+                  between(p, 0.001, 0.009) ~ '< 0.01', 
+                  p < 0.001 ~ '< 0.001',
+                  TRUE ~ paste0('= ', round(p, 2))   ))
+```
+
+```{r value_gg, fig.width = 5, fig.height = 3.5}
+  cn %>% 
+  group_by(Treatment, Organ) %>%
+    summarize(MeanProtein= mean(Protein),
+              SEProtein= sd(Protein)/sqrt(n()), 
+              .groups = 'drop')%>%
+    mutate(Treatment = case_when(
+      Treatment== "Summer"~"Unburned",
+      TRUE~ Treatment))%>%
+    ggplot() + theme_bw(14) + 
+    geom_errorbar(aes(x=Treatment,
+                      ymin=MeanProtein-SEProtein,
+                      ymax=MeanProtein+SEProtein,
+                      color=Organ),
+                  position = position_dodge(width=0.25),
+                size = 1,
+                  width= 0.2)+
+    geom_point(aes(x=Treatment,
+                   y=MeanProtein,
+                   fill=Organ, 
+                   shape = Organ),
+               size = 3, color = "grey40", stroke = 1.2,
+               position = position_dodge(width=0.25)) +
+    labs(x= "Season of last burn",
+         y= "Protein content\n(mean %  ± s.e.)") + 
+    scale_shape_manual(values = c(21, 24)) + 
+    scale_fill_manual(values = c(wes_palette("Darjeeling1")[c(4,5)])) +
+    scale_color_manual(values = c(wes_palette("Darjeeling1")[c(4,5)])) +
+    theme(panel.grid.major.x = element_blank(), 
+          axis.text.x = element_text(color = 'black'))
+```
+
+Crude protein content varied among the fire treatments ($t =$ `r val_sum[1,5]`, $P$ `r val_sum[1,6]`. 
+Crude protein content in fall and spring burns averaged `r burned_sum` and did not differ among each other ($P$ `r val_tuk[1,7]`). 
+But crude protein content in unburned plots was lower than in both fall and spring burns plots (`r val_tuk[2,4]`, $P$ `r val_tuk[2,7]` and `r val_tuk[3,4]`, $P$ `r val_tuk[3,7]`, respectively).
+
+Across all samples, crude protein content did not vary among leaves and stems ($t =$ `r val_sum[2,5]`, $P$ `r val_sum[2,6]`). 
+Despite a trend towards higher crude protein in leaf tissue in unburned plots , the pattern was not influential enough to create a significant fire treatment $\times$ organ interaction ($t =$ `r val_sum[3,5]`, $P$ `r val_sum[3,6]`). 
+
+```{r tau, fig.width = 5, fig.height = 7}
+
+# create table of Tau results with tidy dplyr pipe using purrr
+  kt <- 
+    ha %>% 
+     mutate(Date = format(Date, "%j"), 
+            Date = as.numeric(Date)) %>%
+      split(.$Treatment) %>%
+      map(~ EnvStats::kendallTrendTest(Hoppers ~ Date, data = .))  %>%
+      map_dfr(~ as.data.frame(t(as.matrix(c(round(.$p.value, 3),
+                                            .$estimate[1:2], 
+                                            .$interval$limits))))) %>%
+      mutate(season = c("Fall", "Spring", 'Unburned')) %>% 
+      rename( p = z) %>%
+      select(season, tau, p, slope, LCL, UCL) %>%
+            mutate(tau = as.character(signif(tau, 2)),
+               p = case_when(
+                p >= 0.05 ~ '> 0.05',
+                between(p, 0.001, 0.009) ~ '< 0.01', 
+                p < 0.001 ~ '< 0.001',
+                TRUE ~ paste0('= ', round(p, 2))   ))
+```
+
+```{r tau_gg, fig.width = 5, fig.height = 7}
+# Plot grasshopper abundance over season 
+trends_gg <- 
+  ha %>%
+    mutate(Date= as.Date(Date, format = "%Y-%d-%B"),
+           Hoppers= as.numeric(trimws(Hoppers)) ) %>%
+    mutate(Treatment = case_when(
+      Treatment== "Summer"~"Unburned",
+      TRUE~ Treatment))%>%
+    group_by(Treatment, Date)%>%
+      summarize(MeanHoppers= mean(Hoppers, na.rm=T),
+                SEHoppers= sd(Hoppers)/sqrt(n()), 
+                .groups = 'drop') %>%
+  ggplot()+theme_bw(14)+
+    geom_line(aes(x=Date, y=MeanHoppers,
+                  color=Treatment),
+              position = position_dodge(width=0.5))+
+    geom_errorbar(aes(x=Date,
+                      ymin=MeanHoppers-SEHoppers,
+                      ymax=MeanHoppers+SEHoppers,
+                      color=Treatment),
+    position = position_dodge(width=0.5),
+    width= 0.5)+
+    geom_point(aes(x=Date,
+                   y=MeanHoppers,
+                   fill=Treatment, 
+                   shape=Treatment),
+               size = 4, 
+                 color = "darkgrey", 
+                 stroke = 1.25,
+    position = position_dodge(width=0.5)  )+
+    labs(x= "Date",
+         y= "Grasshoppers per plot") +
+        scale_shape_manual(values = c(21, 24, 22)) + 
+      scale_fill_manual(values = c(wes_palette("Darjeeling1")[c(4,5, 1)])) +
+      scale_color_manual(values = c(wes_palette("Darjeeling1")[c(4,5, 1)])) +
+    theme(panel.grid.minor.x = element_blank(), 
+          legend.position = 'top', 
+           plot.margin = unit(c(1,1,1,1), 'mm')) + 
+    scale_x_date(date_breaks = "7 days", 
+                 date_labels = "%b %d")
+tau_gg <-
+   kt %>%
+    ggplot(aes(x = season)) + theme_bw(14) + 
+      geom_hline(yintercept = 0, lty = 3) +
+      geom_errorbar(aes(ymin = LCL, 
+                        ymax = UCL, 
+                        color = season), 
+                    size = 1,
+                    width= 0.1) +
+      geom_point(aes(y = slope, 
+                     fill = season, 
+                     shape = season), 
+                 size = 4, 
+                 color = "darkgrey", 
+                 stroke = 1.25) +
+     labs(x = "Burn season", 
+          y = "Estimated slope and 95% CI") + 
+     coord_flip() +
+      scale_shape_manual(values = c(21, 24, 22)) + 
+      scale_fill_manual(values = c(wes_palette("Darjeeling1")[c(4,5, 1)])) +
+      scale_color_manual(values = c(wes_palette("Darjeeling1")[c(4,5, 1)])) +
+     theme(axis.text.y = element_text(color = 'black'), 
+           panel.grid.major.y = element_blank(), 
+           legend.position = 'none', 
+           plot.margin = unit(c(5,1,1,20), 'mm'))
+
+grid.arrange(trends_gg, tau_gg, nrow = 2)
+```
+
+Grasshopper abundance was similar across plots at the beginning of the study period (early July) but increased significantly over the next month in fall and spring burn plots ($\tau =$ `r kt[1,2]`, $P$ `r kt[1,3]` and $\tau =$ `r kt[2,2]`, $P$ `r kt[2,3]`). 
+Grasshopper abundance remained constant over the study period in unburned plots ($\tau =$ `r kt[3,2]`, $P$ `r kt[3,3]`). 
+While grasshopper abundance increased in both burn treatments, the rate of increase was approximately three times greater in plots that had been most recently burned in the spring than those that had been burned in the previous fall , which represented more than a five-fold increase in density from approximately 10 to 55 grasshoppers m^-2^.

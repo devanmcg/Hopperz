@@ -1,3 +1,4 @@
+% Encoding: UTF-8
 @article{allred2011,
   title = {Ungulate Preference for Burned Patches Reveals Strength of Fire\textendash Grazing Interaction},
   author = {Allred, Brady W. and Fuhlendorf, Samuel D. and Engle, David M. and Elmore, R. Dwayne},
@@ -8,10 +9,9 @@
   pages = {132--144},
   issn = {2045-7758},
   doi = {10.1002/ece3.12},
-  urldate = {2021-12-14},
   abstract = {The interactions between fire and grazing are widespread throughout fire-dependent landscapes. The utilization of burned areas by grazing animals establishes the fire\textendash grazing interaction, but the preference for recently burned areas relative to other influences (water, topography, etc.) is unknown. In this study, we determine the strength of the fire\textendash grazing interaction by quantifying the influence of fire on ungulate site selection. We compare the preference for recently burned patches relative to the influence of other environmental factors that contribute to site selection; compare that preference between native and introduced ungulates; test relationships between area burned and herbivore preference; and determine forage quality and quantity as mechanisms of site selection. We used two large ungulate species at two grassland locations within the southern Great Plains, USA. At each location, spatially distinct patches were burned within larger areas through time, allowing animals to select among burned and unburned areas. Using fine scale ungulate location data, we estimated resource selection functions to examine environmental factors in site selection. Ungulates preferred recently burned areas and avoided areas with greater time since fire, regardless of the size of landscape, herbivore species, or proportion of area burned. Forage quality was inversely related to time since fire, while forage quantity was positively related. We show that fire is an important component of large ungulate behavior with a strong influence on site selection that drives the fire\textendash grazing interaction. This interaction is an ecosystem process that supersedes fire and grazing as separate factors, shaping grassland landscapes. Inclusion of the fire\textendash grazing interaction into ecological studies and conservation practices of fire-prone systems will aid in better understanding and managing these systems.},
   langid = {english},
-  keywords = {\#duplicate-citation-key,Behavior,conservation,disturbance,grassland,heterogeneity,pyric herbivory,tallgrass prairie}
+  keywords = {Behavior,conservation,disturbance,grassland,heterogeneity,pyric herbivory,tallgrass prairie}
 }
 
 @article{allred2014,
@@ -24,43 +24,38 @@
   pages = {37--41},
   issn = {0167-8809},
   doi = {10.1016/j.agee.2014.04.020},
-  urldate = {2021-12-14},
   abstract = {Sustaining livestock agriculture is important for global food security. Livestock productivity, however, can fluctuate due to many environmental factors, including climate variability. Current predictions of continued warming, decreased precipitation, and increased climate variability worldwide raise serious questions for scientists and producers alike. Foremost is understanding how to mitigate livestock production losses attributed to climate extremes and variability. We investigated the influence of spatial heterogeneity on livestock production over six years in tallgrass prairie of the southern Great Plains, USA. We manipulated heterogeneity by allowing fire and grazing to interact spatially and temporally at broad scales across pastures ranging from 430 to 900ha. We found that the influence of precipitation on livestock productivity was contingent upon heterogeneity. When heterogeneity was absent, livestock productivity decreased with reduced rainfall. In contrast, when heterogeneity was present, there was no relationship with rainfall and livestock productivity, resulting in heterogeneity stabilizing livestock productivity through time. With predicted increases in climate variability and uncertainty, managing for heterogeneity may assist livestock producers in adapting to climate change and in mitigating livestock productivity loss caused by climatic variability.},
   langid = {english},
-  keywords = {\#duplicate-citation-key,Cattle,Climatic extremes,Drought,Fire-grazing interaction,Great Plains,Weight gain}
+  keywords = {Cattle,Climatic extremes,Drought,Fire-grazing interaction,Great Plains,Weight gain}
 }
 
-@article{anderson1952,
-  title = {Grasshopper Investigations on {{Montana}} Range Lands},
+@book{anderson1952,
+  title = {Grasshopper Investigations on {{Montana}} Range Lands. Bulletin 486},
   author = {Anderson, Norman L and Wright, John Clifford},
   year = {1952},
-  journal = {Montana State College Agricultural Experiment Station Bulletin},
-  number = {486}
+  publisher = {Montana State College Agricultural Experiment Station},
+  address = {Bozeman {MT}},
+  number = {Bulletin 486}
 }
 
-@article{archibald2005a,
+@article{archibald2005,
   title = {Shaping the Landscape: Fire\textendash Grazer Interactions in an {{African}} Savanna},
-  author = {Archibald, S and Bond, {\relax WJ} and Stock, {\relax WD} and Fairbanks, {\relax DHK}},
+  author = {Archibald, S and Bond, WJ and Stock, WD and Fairbanks, DHK},
   year = {2005},
-  journal = {Ecological applications},
+  journal = {Ecological Applications},
   volume = {15},
   number = {1},
-  pages = {96--109},
-  publisher = {{Wiley Online Library}},
-  issn = {1939-5582}
+  pages = {96--109}
 }
 
-@article{augustine2014g,
+@article{augustine2014,
   title = {Controls over the Strength and Timing of Fire\textendash Grazer Interactions in a Semi-arid Rangeland},
   author = {Augustine, David J and Derner, Justin D},
   year = {2014},
   journal = {Journal of Applied Ecology},
   volume = {51},
   number = {1},
-  pages = {242--250},
-  publisher = {{Wiley Online Library}},
-  issn = {0021-8901},
-  keywords = {\#duplicate-citation-key}
+  pages = {242--250}
 }
 
 @article{barbehenn2004,
@@ -74,9 +69,7 @@
   number = {1},
   pages = {96--103},
   issn = {0029-8549, 1432-1939},
-  doi = {10.1007/s00442-004-1555-x},
-  urldate = {2021-07-20},
-  keywords = {\#duplicate-citation-key}
+  doi = {10.1007/s00442-004-1555-x}
 }
 
 @article{bauer2007,
@@ -102,9 +95,7 @@
   pages = {1977--1982},
   issn = {0027-8424, 1091-6490},
   doi = {10.1073/pnas.0711870105},
-  urldate = {2022-02-07},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
 @article{behmer2009,
@@ -116,9 +107,8 @@
   number = {1},
   pages = {165--187},
   doi = {10.1146/annurev.ento.54.110807.090537},
-  urldate = {2021-12-14},
   abstract = {The primary reason animals, including insect herbivores, eat is to acquire a mix of nutrients needed to fuel the processes of growth, development, and reproduction. Most insect herbivores strongly regulate their nutrient intake when given the opportunity. When they are restricted to imbalanced diets, they employ regulatory rules that govern the extent to which nutrients occurring in excess or deficit are eaten. Insect herbivores also regularly encounter allelochemicals as they eat, and recent work indicates the effect an allelochemical has on nutrient regulation, and insect herbivore performance, is modified depending on a food's nutrient composition. Comparative studies of nutrient regulation suggest coexisting generalist herbivores occupy unique nutritional feeding niches, and work with pathogens and parasitoids has revealed the manner in which top-down pressures influence patterns of nutrient intake. Insect herbivores regulate their nutrient intake using pre- and postingestive mechanisms, plus learning, and there is evidence that some of these mechanisms are shaped by natural selection.},
-  keywords = {\#duplicate-citation-key,allelochemicals,Behavior,ecology,evolution,natural enemies,physiology}
+  keywords = {allelochemicals,Behavior,ecology,evolution,natural enemies,physiology}
 }
 
 @article{belovsky1995,
@@ -133,28 +123,25 @@
   pages = {383--396},
   issn = {0029-8549, 1432-1939},
   doi = {10.1007/BF00328826},
-  urldate = {2022-02-20},
   abstract = {The population dynamics of two grasshoppers (Melanoplusfemurrubrum and M. sanguinipes) were studied using experimental microcosms over 8 years at a Palouse prairie site in Montana. Grasshopper density, survival and reproduction in the experimental populations responded in a density-dependent fashion to natural and experimental changes in food availability for all grasshopper developmental stages, both within and between all years. We observed that field populations of the grasshoppers at the site exhibited density, survival and reproductive responses similar to the experimental populations over the period of the study. Because we could not identify any differences between the field and microcosm environments or the grasshopper individuals in them, we contend that field populations were ultimately limited by food within and between years. Density-dependent food limitation occurred for all age categories over the entire summer, because food abundance declined relative to grasshopper food requirements over the summer. Food limitation occurred between years, because in years with the lowest food abundance, the populations produced more hatchlings for the next year than could be supported by the highest observed food abundance. Finally, the observed annual changes in food abundance were correlated with the annual variation in weather (rainfall and temperature), which indicated that the long established relationship between grasshopper densities and weather conditions does not imply population limitation by density-independent processes.},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
-@article{belovsky2000a,
+@article{belovsky2000,
   title = {Insect Herbivory Accelerates Nutrient Cycling and Increases Plant Production},
-  author = {Belovsky, {\relax GE} and Slade, {\relax JB}},
+  author = {Belovsky, GE and Slade, JB},
   year = {2000},
   journal = {Proceedings of the National Academy of Sciences},
   volume = {97},
   number = {26},
   pages = {14412--14417},
   publisher = {{National Acad Sciences}},
-  issn = {0027-8424},
-  keywords = {\#duplicate-citation-key}
+  issn = {0027-8424}
 }
 
 @article{belovsky2002,
   title = {An Ecosystem Perspective on Grasshopper Control: Possible Advantages to No Treatment},
-  author = {Belovsky, Gary E and Slade, {\relax JB}},
+  author = {Belovsky, Gary E and Slade, JB},
   year = {2002},
   journal = {Journal of Orthoptera Research},
   volume = {11},
@@ -187,16 +174,15 @@
   issn = {1932-6203}
 }
 
-@article{bond2022,
-  title = {Out of the Shadows: Ecology of Open Ecosystems},
-  author = {Bond, William J.},
-  year = {2022},
-  month = jan,
-  journal = {Plant Ecology \& Diversity},
-  pages = {1--18},
-  issn = {1755-0874},
-  doi = {10.1080/17550874.2022.2034065},
-  abstract = {ABSTRACTBiomes of the world have long been assumed to be determined by climate. Major disparities, where open low biomass systems occurred in the same climate zone as closed forests have been dismissed as products of deforestation. Many of these open ecosystems of the world, have been shown to be of ancient origins, stable alternatives to forests, and typically maintained by disturbance regimes. Open ecosystems include some of the most biodiverse regions in the world. They are often consumer-controlled by large mammal herbivores or fire. Mosaics of closed forest and open ecosystems have been interpreted as alternative stable states with each state maintained by positive feedbacks to environmental conditions that maintain that state. For example, flammable grasses maintain fires which consume woody plants, while closed forests exclude flammable grasses by shading them out. Understanding open ecosystems may therefore require some radical revision of familiar ecological concepts, starting with the hypothesis that climate largely determines world vegetation patterns. Open ecosystems function differently from forests in an earth system context affecting the hydrological cycle, rates of rock weathering, and presenting a different planetary surface to solar radiation reaching the earth?s land surface. Open ecosystems require explicit attention in conservation policy and management.}
+@Article{bond2022,
+  author   = {Bond, William J.},
+  journal  = {Plant Ecology \& Diversity},
+  title    = {Out of the Shadows: Ecology of Open Ecosystems},
+  year     = {2021},
+  pages    = {205–222},
+  volume   = {14},
+  abstract = {Biomes of the world have long been assumed to be determined by climate. Major disparities, where open low biomass systems occurred in the same climate zone as closed forests have been dismissed as products of deforestation. Many of these open ecosystems of the world, have been shown to be of ancient origins, stable alternatives to forests, and typically maintained by disturbance regimes. Open ecosystems include some of the most biodiverse regions in the world. They are often consumer-controlled by large mammal herbivores or fire. Mosaics of closed forest and open ecosystems have been interpreted as alternative stable states with each state maintained by positive feedbacks to environmental conditions that maintain that state. For example, flammable grasses maintain fires which consume woody plants, while closed forests exclude flammable grasses by shading them out. Understanding open ecosystems may therefore require some radical revision of familiar ecological concepts, starting with the hypothesis that climate largely determines world vegetation patterns. Open ecosystems function differently from forests in an earth system context affecting the hydrological cycle, rates of rock weathering, and presenting a different planetary surface to solar radiation reaching the earth?s land surface. Open ecosystems require explicit attention in conservation policy and management.},
+  doi      = {10.1080/17550874.2022.2034065},
 }
 
 @article{branson2003,
@@ -212,7 +198,7 @@
 }
 
 @article{branson2005,
-  title = {Effects of {{Fire}} on {{Grasshopper Assemblages}} in a {{Northern Mixed-grass Prairie}}},
+  title = {Effects of fire on grasshopper assemblages in a {{Northern Mixed-grass Prairie}}},
   author = {Branson, David H.},
   year = {2005},
   month = oct,
@@ -222,12 +208,10 @@
   pages = {1109--1113},
   issn = {0046-225X},
   doi = {10.1093/ee/34.5.1109},
-  urldate = {2021-11-30},
-  abstract = {Grassland fires have been shown to influence grasshopper community composition and population dynamics, but studies of their effects on rangeland grasshopper assemblages in the northern Great Plains are lacking. This study was designed to examine the effect of a grassland wildfire on grasshopper community composition and population densities of three grasshopper subfamilies in western North Dakota northern mixed-grass prairie with sampling in paired burned and unburned plots. A rapidly moving fire occurred in late October 1999, after egg-overwintering grasshoppers had died. Vegetation biomass and nitrogen content of grasses did not differ statistically between burned and unburned plots in 2000. The fire negatively affected grasshopper population densities the year after the fire, but species diversity was not affected by the fire. Much of the reduction in grasshopper population densities was caused by a decline in densities of Gomphocerinae species. Grasshopper subfamily densities did not differ statistically between burned and unburned plots in 2001. Additional research is needed to determine the mechanisms leading to the reduction in Gomphocerinae species densities.},
-  keywords = {\#duplicate-citation-key}
+  abstract = {Grassland fires have been shown to influence grasshopper community composition and population dynamics, but studies of their effects on rangeland grasshopper assemblages in the northern Great Plains are lacking. This study was designed to examine the effect of a grassland wildfire on grasshopper community composition and population densities of three grasshopper subfamilies in western North Dakota northern mixed-grass prairie with sampling in paired burned and unburned plots. A rapidly moving fire occurred in late October 1999, after egg-overwintering grasshoppers had died. Vegetation biomass and nitrogen content of grasses did not differ statistically between burned and unburned plots in 2000. The fire negatively affected grasshopper population densities the year after the fire, but species diversity was not affected by the fire. Much of the reduction in grasshopper population densities was caused by a decline in densities of Gomphocerinae species. Grasshopper subfamily densities did not differ statistically between burned and unburned plots in 2001. Additional research is needed to determine the mechanisms leading to the reduction in Gomphocerinae species densities.}
 }
 
-@article{branson2006a,
+@article{branson2006,
   title = {Sustainable {{Management}} of {{Insect Herbivores}} in {{Grassland Ecosystems}}: {{New Perspectives}} in {{Grasshopper Control}}},
   author = {Branson, David H. and Joern, Anthony and Sword, Gregory A.},
   year = {2006},
@@ -238,12 +222,10 @@
   pages = {743--755},
   issn = {0006-3568},
   doi = {10.1641/0006-3568(2006)56[743:SMOIHI]2.0.CO;2},
-  urldate = {2022-11-08},
-  abstract = {Grasshoppers are insect herbivores common to grassland ecosystems worldwide. They comprise important components of biodiversity, contribute significantly to grassland function, and periodically exhibit both local and large-scale outbreaks. Because of grasshoppers' potential economic importance as competitors with ungulate grazers for rangeland forage, periodic grasshopper outbreaks in western US rangeland often elicit intervention over large areas in the form of chemical control. Available information combined with alternative underlying conceptual frameworks suggests that new approaches for sustainable management of grasshopper outbreaks in US rangeland should be pursued. There are many reasons to believe that approaches to grasshopper management that aim to reduce or prevent outbreaks are possible. These habitat manipulation tactics maintain existing ecological feedbacks responsible for sustaining populations at economically nonthreatening levels. Sustainable strategies to minimize the likelihood and extent of grasshopper outbreaks while limiting the need for chemical intervention are a rational and attainable goal for managing grasslands as renewable resources.},
-  keywords = {\#duplicate-citation-key}
+  abstract = {Grasshoppers are insect herbivores common to grassland ecosystems worldwide. They comprise important components of biodiversity, contribute significantly to grassland function, and periodically exhibit both local and large-scale outbreaks. Because of grasshoppers' potential economic importance as competitors with ungulate grazers for rangeland forage, periodic grasshopper outbreaks in western US rangeland often elicit intervention over large areas in the form of chemical control. Available information combined with alternative underlying conceptual frameworks suggests that new approaches for sustainable management of grasshopper outbreaks in US rangeland should be pursued. There are many reasons to believe that approaches to grasshopper management that aim to reduce or prevent outbreaks are possible. These habitat manipulation tactics maintain existing ecological feedbacks responsible for sustaining populations at economically nonthreatening levels. Sustainable strategies to minimize the likelihood and extent of grasshopper outbreaks while limiting the need for chemical intervention are a rational and attainable goal for managing grasslands as renewable resources.}
 }
 
-@article{branson2010a,
+@article{branson2010,
   title = {An {{Experimental Analysis}} of {{Grasshopper Community Responses}} to {{Fire}} and {{Livestock Grazing}} in a {{Northern Mixed-Grass Prairie}}},
   author = {Branson, David H. and Sword, Gregory A.},
   year = {2010},
@@ -254,9 +236,7 @@
   pages = {1441--1446},
   issn = {0046-225X},
   doi = {10.1603/EN09378},
-  urldate = {2022-11-08},
   abstract = {The outcomes of grasshopper responses to both vertebrate grazing and fire vary across grassland ecosystems, and are strongly influenced by local climactic factors. Thus, the possible application of grazing and fire as components of an ecologically based grasshopper management strategy must be investigated in regional studies. In this study, we examined the effects of grazing and fire on grasshopper population density and community composition in a northern Great Plains mixed-grass prairie. We employed a large-scale, replicated, and fully-factorial manipulative experimental design across 4 yr to examine the separate and interactive effects of three grazing systems in burned and unburned habitats. Grasshopper densities were low throughout the 4-yr study and 1 yr of pretreatment sampling. There was a significant fire by grazing interaction effect on cumulative density and community composition, resulting from burned season long grazing pastures having higher densities than unburned pastures. Shannon diversity and grasshopper species richness were significantly higher with twice-over rotational livestock grazing. The ability to draw strong conclusions regarding the nature of species composition shifts and population changes in the presence of fire and grazing is complicated by the large site differences and low grasshopper densities. The results reinforce the importance of long-term research to examine the effects of habitat manipulation on grasshopper population dynamics.},
-  keywords = {\#duplicate-citation-key},
   file = {C\:\\Users\\devan.mcgranahan\\Zotero\\storage\\2Y4AYBHG\\Branson and Sword - 2010 - An Experimental Analysis of Grasshopper Community .pdf;C\:\\Users\\devan.mcgranahan\\Zotero\\storage\\E9CZQQDF\\476291.html}
 }
 
@@ -271,30 +251,11 @@
   pages = {110--113},
   issn = {15507424},
   doi = {10.2111/REM-D-11-00187.1},
-  urldate = {2021-11-30},
   abstract = {Rangeland fire is a common naturally occurring event and management tool, with the amount and structure of biomass controlling transfer of heat belowground. Temperatures that grasshopper eggs are exposed to during rangeland fires are mediated by species-specific oviposition traits. This experiment examined egg mortality in two slant-faced grasshopper species with differing oviposition traits, namely Aulocara elliotti (Thomas) and Opeia obscura (Thomas). We hypothesized that A. elliotti egg mortality would increase with fire intensity because the shallow egg location below the soil surface would result in exposure to higher temperatures, and that the deeper O. obscura eggs would not be affected by fire intensity. Fire intensity did not significantly affect the mortality of O. obscura eggs, with very low mortality in all treatments. Fire intensity significantly affected mortality of A. elliotti eggs, which are laid in shallow egg pods with the midpoint of the egg clutch at a depth of \textasciitilde{} 0.825 cm. Aulocara elliotti egg mortality increased with higher levels of heat application, with 79\% egg mortality in the 4 500 kg \'A ha\`A1 heat treatment. Heat effects on A. elliotti egg mortality were similar to those previously observed for another shallow-egg-laying species. Limited research has examined if rangeland fires reduce population densities of specific economically important grasshopper species. The results from this experiment indicate that grasshopper species with the midpoint of the egg pod less than 1 cm below the surface are likely in general to be vulnerable to fire-induced egg mortality during rangeland fires.},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
-@article{branson2014a,
-  title = {Insect Herbivory and Vertebrate Grazing Impact Food Limitation and Grasshopper Populations during a Severe Outbreak},
-  author = {Branson, David H. and Haferkamp, Marshall A.},
-  year = {2014},
-  journal = {Ecological Entomology},
-  volume = {39},
-  number = {3},
-  pages = {371--381},
-  issn = {1365-2311},
-  doi = {10.1111/een.12114},
-  urldate = {2023-01-30},
-  abstract = {1. Competition between herbivores often plays an important role in population ecology and appears strongest when densities are high or plant production is low. Phytophagous insects are often highly abundant, but relatively few experiments have examined competition between vertebrates and phytophagous insects. 2. In grassland systems worldwide, grasshoppers are often the dominant phytophagous insect, and livestock grazing is a dominant land use. For this study, a novel experiment was conducted examining competition between vertebrates and invertebrates, where both grasshopper densities and sheep grazing were manipulated inside 10-m2 caged mesocosms during a grasshopper outbreak. We examined how grasshopper densities and the timing of vertebrate herbivory affected grasshopper densities, if the effects of vertebrates on survival and reproduction changed with grasshopper density, and how a naturally occurring grasshopper outbreak affected grasshopper populations in the following year. 3. Densities of grasshoppers at the site peaked at 130 m\textendash 2. Food-limited competition was stronger in treatments with higher grasshopper densities and repeated or late livestock herbivory, leading to reduced survival, femur length, and functional ovarioles, a measure of future reproduction. Strong food-limited density-dependent reproduction and survival led to reduced hatching densities in 2001. 4. As competition was typically stronger with high grasshopper densities than with livestock grazing, competition from vertebrates could be relatively less important for phytophagous insect population dynamics during outbreaks. The experiment provides insights into how competition between insect and vertebrate herbivores influences insect population dynamics, and indicates that severe outbreaks can rapidly subside with strong competition from vertebrate and insect herbivores.},
-  langid = {english},
-  keywords = {\#duplicate-citation-key,Exploitative competition,grasshopper,herbivory,livestock grazing,outbreak,phytophagous insect,population dynamics,vertebrate},
-  file = {C\:\\Users\\devan.mcgranahan\\Zotero\\storage\\9D67N5X7\\Branson and Haferkamp - 2014 - Insect herbivory and vertebrate grazing impact foo.pdf}
-}
-
-@article{branson2016a,
+@article{branson2016,
   title = {Grasshopper Responses to Fire and Postfire Grazing in the {{Northern Great Plains}} Vary among Species},
   author = {Branson, David H and Vermeire, Lance T},
   year = {2016},
@@ -303,8 +264,7 @@
   number = {2},
   pages = {144--149},
   publisher = {{Elsevier}},
-  issn = {1550-7424},
-  keywords = {\#duplicate-citation-key}
+  issn = {1550-7424}
 }
 
 @book{cappuccino1995,
@@ -327,7 +287,6 @@
   pages = {551--558},
   issn = {0006-3568},
   doi = {10.1093/biosci/biv048},
-  urldate = {2022-11-08},
   abstract = {Coupled human and natural systems (CHANS) are systems of feedback linking people and ecosystems. A feature of CHANS is that this ecological feedback connects people across time and space. Failing to account for these dynamic links results in intertemporal and spatial externalities, reaping benefits in the present but imposing costs on future and distant people, such as occurs with overgrazing. Recent findings about locust\textendash nutrient dynamics create new opportunities to address spatiodynamic ecosystem externalities and develop new sustainable strategies to understand and manage locust outbreaks. These findings in northeast China demonstrate that excessive livestock grazing promotes locust outbreaks in an unexpected way: by lowering plant nitrogen content due to soil degradation. We use these human\textendash locust\textendash livestock\textendash nutrient interactions in grasslands to illustrate CHANS concepts. Such empirical discoveries provide opportunities to address externalities such as locust outbreaks, but society's ability to act may be limited by preexisting institutional arrangements.}
 }
 
@@ -339,7 +298,6 @@
   volume = {7},
   number = {8},
   pages = {985--1012},
-  urldate = {2013-08-15},
   file = {C\:\\Users\\devan.mcgranahan\\Zotero\\storage\\Z6NZB9JI\\Chambers and Samways - 1998 - Grasshopper response to a 40-year experimental bur.pdf}
 }
 
@@ -354,7 +312,6 @@
   pages = {e01545},
   issn = {2150-8925},
   doi = {10.1002/ecs2.1545},
-  urldate = {2022-04-21},
   abstract = {Abstract Land use and corresponding habitat loss are major drivers of local species extinctions. Orthoptera as important grassland herbivores showed different responses to land-use intensity in different studies, and the susceptibility of this group remains unclear. We sampled annually for seven years 150 temperate grassland sites across three regions in Germany, for which land-use gradients were quantified as mowing, grazing, and fertilization intensity. We analyzed the effects of land-use intensity on orthopteran diversity and community abundance. To describe species-specific responses to environmental gradients, we employed a new approach termed ?niche model,? coupled with a randomization procedure, which is sensitive even for rare species for which trends may otherwise be difficult to detect. Based on abundance-weighted means for each species, we quantified the species' occurrence along land-use gradients and identified potential losers and winners of intensive land use. Overall, high land-use intensity negatively affected orthopteran diversity across years and regions, corresponding to decreases with high fertilization, mowing, and grazing intensity. Intensive mowing and grazing negatively affected abundance. Diversity and abundance increased with the time after the last cut. The niche model detected 15 of 29 Orthoptera species as losers of land use, showing significantly higher abundance in grasslands with low-intensity land use. Two species were winners of high land-use intensity, whereas the remaining 12 were assigned as opportunists. Most species were losers of high fertilization intensity, followed by frequent mowing. Grazing intensity was least detrimental at the species level. Omnivorous, herbivorous, and graminivorous species did not differ in their response to land-use intensity, whereas bryovorous/lichenivorous Tetrix species showed consistently negative responses to intensive land use. Our highly replicated, long-term and large-scale survey suggests that further land-use intensification threatens many Orthoptera and causes a consistent diversity loss. Low intensity of fertilization, infrequent mowing, and variable grazing will help to maintain a high diversity of orthopterans. The generality of our niche model approach advances studies on species' susceptibility in various study systems.},
   keywords = {anthropogenic disturbance,Biodiversity Exploratories,effective Shannon diversity,feeding habit,grasshoppers,grassland management,habitat niche,insect herbivory,land use,mowing date,Orthoptera}
 }
@@ -382,13 +339,11 @@
   pages = {19--32},
   issn = {1573-1480},
   doi = {10.1007/s10584-017-2029-6},
-  urldate = {2021-12-14},
   abstract = {The Northern Great Plains (NGP) region of the USA\textemdash which comprises Montana, Wyoming, Colorado, North Dakota, South Dakota, and Nebraska\textemdash is a largely rural area that provides numerous ecosystem services, including livestock products, cultural services, and conservation of biological diversity. The region contains 25\% of the Nation's beef cattle and approximately one-third of the confined beef cattle, as well as the largest remaining native prairie in the US\textemdash the Northern Mixedgrass Prairie. With rising atmospheric CO2, the NGP is projected to experience warmer and longer growing seasons, greater climatic variability, and more extreme events (e.g., increased occurrence of large precipitation events). These climatic changes may affect livestock production both directly via physiological impacts on animals and indirectly via modifications to forage, invasion of undesirable plants, and increased exposure to parasites. This raises concerns about the vulnerability of grazing livestock operations and confined livestock operations to projected changes in mid- (2050) and late- (2085) twenty-first century climate. Our objectives are to (1) describe the NGP's exposure to temperature and precipitation trends, inter-annual variability, and extreme events; (2) evaluate the sensitivity of beef cattle production to direct and indirect effects imposed by these projected climatic changes; and (3) provide a typology of adaptation strategies to minimize adverse consequences of projected changes and maximize beneficial consequences. Agricultural managers have developed considerable adaptive capacity to contend with environmental and economic variability. However, projected climatic changes, especially the increased frequency and magnitude of weather extremes, will require even greater adaptive capacity to maintain viable production systems. Consequently, regional vulnerability to projected climatic changes will be determined not only by ecological responses but also by the adaptive capacity of individual managers. Adaptive capacity in the NGP will differ from other regions, in part because projections suggest some opportunities for increased livestock production. Adaptations in both grazing and confined beef cattle systems will require enhanced decision-making skills capable of integrating biophysical, social, and economic considerations. Social learning networks that support integration of experimental and experiential knowledge\textemdash such as lessons learned from early adopters and involvement with science-based organizations\textemdash can help enhance decision-making and climate adaptation planning. Many adaptations have already been implemented by a subset of producers in this region, providing opportunities for assessment, further development, and greater adoption. Context-specific decision-making can also be enhanced through science-management partnerships, which aim to build adaptive capacity that recognizes multiple production and conservation/environmental goals.},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
-@article{donaldson2018a,
+@article{donaldson2018,
   title = {Ecological Engineering through Fire-Herbivory Feedbacks Drives the Formation of Savanna Grazing Lawns},
   author = {Donaldson, Jason E. and Archibald, Sally and Govender, Navashni and Pollard, Drew and Luhdo, Zo{\"e} and Parr, Catherine L.},
   year = {2018},
@@ -398,10 +353,10 @@
   pages = {225--235},
   issn = {1365-2664},
   doi = {10.1111/1365-2664.12956},
-  urldate = {2022-12-02},
   abstract = {Variation in grass height is beneficial to biodiversity conservation in savanna landscapes. Theory predicts that small fires can promote short-grass areas within savannas. We experimentally assessed the influence of fire season and size on grass height and the resultant response of wild grazer communities and tested three hypotheses: (1) repeated small fires in tall-grass savannas increase short-grass grazer densities in the post-burn environment; (2) increased grazer densities maintain grass height in a short, palatable state and drive feedbacks that exclude fire; and (3) late-dry season burns concentrate grazers more effectively than early dry season burns. We repeatedly applied annual treatments (unburned, early- and late-burns) in 0.25-, 5- and 25-ha plots over a period of 3 years in a tall-grass savanna system in Kruger National Park, South Africa. Dung counts for grazer density and grass height data were collected along 50-m transects. Grass height was measured in paired 1-m2 herbivore exclosures on plots before and after applied fires. Dung data indicate that wildebeest occurred most frequently in grass heights below 5 cm. Their preference for plots regardless of fire size or season increased over time with each repeated burn. Zebra and buffalo favoured burns immediately post-fire, but buffalo did not actively select for burnt areas over longer time periods. By the second year of treatment, herbivory maintained 28\% and 91\% of the grass height below 10 cm in the early- and late-season burns respectively. In contrast, herbivory on the unburned treatments had no effect on grass height. Synthesis and applications. Fires less than 25 ha in size attracted sufficient grazing herbivores to shorten grass height. Repetition of the fire treatments resulted in the active selection of these areas in the longer term by wildebeest, impala and, to a lesser degree, zebra. Grazing pressure was high enough to initiate positive feedbacks and maintain lawns after only two seasons of burning and, depending on the season of burn, reduced grass height to a level that excluded repeat fires. Our study demonstrated that theory on grazer use of the post-fire environment can be implemented practically by applying small repeated burns to promote the formation of short-grass areas within savannas.},
   langid = {english},
   keywords = {African savannas,burn area,burning,fire ecology,grass system-state,grazer ecology,grazing,grazing lawns,herbivore},
+  annotation = {\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2664.12956},
   file = {C\:\\Users\\devan.mcgranahan\\Zotero\\storage\\YZI8PY5A\\Donaldson et al. - 2018 - Ecological engineering through fire-herbivory feed.pdf;C\:\\Users\\devan.mcgranahan\\Zotero\\storage\\H82KVEQS\\1365-2664.html}
 }
 
@@ -416,10 +371,8 @@
   pages = {5986--5993},
   issn = {0094-8276, 1944-8007},
   doi = {10.1002/2017GL072901},
-  urldate = {2022-02-09},
   abstract = {Rapid changes in wildfire patterns are documented globally, increasing pressure to identify regions that may experience increases in wildfire in future decades. Temperate grassland and savanna biomes were some of the most frequently burned regions on Earth; however, large wildfires have been largely absent from the Great Plains of North America over the last century. In this paper, we conduct an in-depth analysis of changes in large wildfire ({$>$}400 ha) regime characteristics over a 30 year period across the Great Plains. For the entire biome, (i) the average number of large wildfires increased from 33.4 {$\pm$} 5.6 per year from 1985 to 1994 to 116.8 {$\pm$} 28.8 wildfires per year from 2005 to 2014, (ii) total area burned by large wildfires increased 400\%, (iii) over half the ecoregions had greater than a 70\% probability of a large wildfire occurring in the last decade, and (iv) seasonality of large wildfires remained relatively similar.},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
 @article{donovan2020,
@@ -433,10 +386,8 @@
   pages = {1869},
   issn = {2072-4292},
   doi = {10.3390/rs12111869},
-  urldate = {2022-02-09},
   abstract = {Wildfire activity has surged in North America's temperate grassland biome. Like many biomes, this system has undergone drastic land-use change over the last century; however, how various land-use types contribute to wildfire patterns in grassland systems is unclear. We determine if certain land-use types have a greater propensity for large wildfire in the U.S. Great Plains and how this changes given the percentage of land covered by a given land-use type. Almost 90\% of the area burned in the Great Plains occurred in woody and grassland land-use types. Although grassland comprised the greatest area burned by large wildfires, woody vegetation burned disproportionately more than any other land-use type in the Great Plains. Wildfires were more likely to occur when woody vegetation composed greater than 20\% of the landscape. Wildfires were unlikely to occur in croplands, pasture/hay fields, and developed areas. Although these patterns varied by region, wildfire was most likely to occur in woody vegetation and/or grassland in 13 of 14 ecoregions we assessed. Because woody vegetation is more conducive to extreme wildfire behaviour than other land-use types in the Great Plains, woody encroachment could pose a large risk for increasing wildfire exposure. Regional planning could leverage differential wildfire activity across land-uses to devise targeted approaches that decrease human exposure in a system prone to fire.},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
 @article{evans1983,
@@ -476,21 +427,19 @@
   pages = {588--598},
   issn = {1523-1739},
   doi = {10.1111/j.1523-1739.2008.01139.x},
-  urldate = {2021-12-14},
   abstract = {Abstract: Our understanding of fire and grazing is largely based on small-scale experimental studies in which treatments are uniformly applied to experimental units that are considered homogenous. Any discussion of an interaction between fire and grazing is usually based on a statistical approach that ignores the spatial and temporal interactions on complex landscapes. We propose a new focus on the ecological interaction of fire and grazing in which each disturbance is spatially and temporally dependent on the other and results in a landscape where disturbance is best described as a shifting mosaic (a landscape with patches that vary with time since disturbance) that is critical to ecological structure and function of many ecosystems. We call this spatiotemporal interaction pyric herbivory (literal interpretation means grazing driven by fire). Pyric herbivory is the spatial and temporal interaction of fire and grazing, where positive and negative feedbacks promote a shifting pattern of disturbance across the landscape. We present data we collected from the Tallgrass Prairie Preserve in the southern Great Plains of North America that demonstrates that the interaction between free-roaming bison (Bison bison) and random fires promotes heterogeneity and provides the foundation for biological diversity and ecosystem function of North American and African grasslands. This study is different from other studies of fire and grazing because the fires we examined were random and grazing animals were free to roam and select from burned and unburned patches. For ecosystems across the globe with a long history of fire and grazing, pyric herbivory with any grazing herbivore is likely more effective at restoring evolutionary disturbance patterns than a focus on restoring any large vertebrate while ignoring the interaction with fire and other disturbances.},
   langid = {english},
-  keywords = {\#duplicate-citation-key,biodiversidad,biodiversity,bison,bisonte,disturbance ecology,ecolog\'ia de la perturbaci\'on,fire,fuego,grasslands,grazing,herbivor\'ia,herbivory,heterogeneidad,heterogeneity,pastizales,pastoreo}
+  keywords = {biodiversidad,biodiversity,bison,bisonte,disturbance ecology,ecología de la perturbación,fire,fuego,grasslands,grazing,herbivoría,herbivory,heterogeneidad,heterogeneity,pastizales,pastoreo}
 }
 
-@incollection{fuhlendorf2017d,
+@incollection{fuhlendorf2017,
   title = {Heterogeneity as the Basis for Rangeland Management},
   booktitle = {Rangeland {{Systems}}},
   author = {Fuhlendorf, Samuel D and Fynn, Richard WS and McGranahan, Devan Allen and Twidwell, Dirac},
   editor = {Briske, David},
   year = {2017},
   pages = {169--196},
-  publisher = {{Springer, Cham}},
-  keywords = {\#duplicate-citation-key}
+  publisher = {{Springer, Cham}}
 }
 
 @article{gardiner2008,
@@ -530,9 +479,7 @@
   pages = {5454--5468},
   issn = {0022-0957},
   doi = {10.1093/jxb/eraa276},
-  urldate = {2021-12-14},
-  abstract = {Shoot architecture is a key component of the interactions between plants and their environment. We present a novel model of grass, which fully integrates shoot morphogenesis and the metabolism of carbon (C) and nitrogen (N) at organ scale, within a three-dimensional representation of plant architecture. Plant morphogenesis is seen as a self-regulated system driven by two main mechanisms. First, the rate of organ extension and the establishment of architectural traits are regulated by concentrations of C and N metabolites in the growth zones and the temperature. Second, the timing of extension is regulated by rules coordinating successive phytomers instead of a thermal time schedule. Local concentrations are calculated from a model of C and N metabolism at organ scale. The three-dimensional representation allows the accurate calculation of light and temperature distribution within the architecture. The model was calibrated for wheat (Triticum aestivum) and evaluated for early vegetative stages. This approach allowed the simulation of realistic patterns of leaf dimensions, extension dynamics, and organ mass and composition. The model simulated, as emergent properties, plant and agronomic traits. Metabolic activities of growing leaves were investigated in relation to whole-plant functioning and environmental conditions. The current model is an important step towards a better understanding of the plasticity of plant phenotype in different environments.},
-  keywords = {\#duplicate-citation-key}
+  abstract = {Shoot architecture is a key component of the interactions between plants and their environment. We present a novel model of grass, which fully integrates shoot morphogenesis and the metabolism of carbon (C) and nitrogen (N) at organ scale, within a three-dimensional representation of plant architecture. Plant morphogenesis is seen as a self-regulated system driven by two main mechanisms. First, the rate of organ extension and the establishment of architectural traits are regulated by concentrations of C and N metabolites in the growth zones and the temperature. Second, the timing of extension is regulated by rules coordinating successive phytomers instead of a thermal time schedule. Local concentrations are calculated from a model of C and N metabolism at organ scale. The three-dimensional representation allows the accurate calculation of light and temperature distribution within the architecture. The model was calibrated for wheat (Triticum aestivum) and evaluated for early vegetative stages. This approach allowed the simulation of realistic patterns of leaf dimensions, extension dynamics, and organ mass and composition. The model simulated, as emergent properties, plant and agronomic traits. Metabolic activities of growing leaves were investigated in relation to whole-plant functioning and environmental conditions. The current model is an important step towards a better understanding of the plasticity of plant phenotype in different environments.}
 }
 
 @article{gebeyehu2003,
@@ -543,7 +490,6 @@
   volume = {95},
   number = {2},
   pages = {613--622},
-  urldate = {2013-08-15},
   file = {C\:\\Users\\devan.mcgranahan\\Zotero\\storage\\Z2ASN4ML\\Gebeyehu and Samways - 2003 - Responses of grasshopper assemblages to long-term .pdf}
 }
 
@@ -579,8 +525,7 @@
   volume = {36},
   number = {2},
   pages = {202--207},
-  issn = {1550-7424},
-  keywords = {\#duplicate-citation-key}
+  issn = {1550-7424}
 }
 
 @article{hochkirch2007,
@@ -606,10 +551,8 @@
   pages = {2646--2656},
   issn = {0012-9658},
   doi = {10.1890/13-2186.1},
-  urldate = {2022-02-09},
   abstract = {Climate change forecasts of more frequent climate extremes suggest that such events will become increasingly important drivers of future ecosystem dynamics and function. Because the rarity and unpredictability of naturally occurring climate extremes limits assessment of their ecological impacts, we experimentally imposed extreme drought and a midsummer heat wave over two years in a central U.S. grassland. While the ecosystem was resistant to heat waves, it was not resistant to extreme drought, which reduced aboveground net primary productivity (ANPP) below the lowest level measured in this grassland in almost 30 years. This extreme reduction in ecosystem function was a consequence of reduced productivity of both C4 grasses and C3 forbs. However, the dominant forb was negatively impacted by the drought more than the dominant grass, and this led to a reordering of species abundances within the plant community. Although this change in community composition persisted post-drought, ANPP recovered completely the year after drought due to rapid demographic responses by the dominant grass, compensating for loss of the dominant forb. Overall, these results show that an extreme reduction in ecosystem function attributable to climate extremes (e.g., low resistance) does not preclude rapid ecosystem recovery. Given that dominance by a few species is characteristic of most ecosystems, knowledge of the traits of these species and their responses to climate extremes will be key for predicting future ecosystem dynamics and function.},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
 @article{humphreys2022,
@@ -623,10 +566,8 @@
   pages = {12--30},
   issn = {2673-7086},
   doi = {10.3390/geographies2010003},
-  urldate = {2022-02-20},
   abstract = {Climate change is expected to alter prevailing temperature, precipitation, cloud cover, and humidity this century, thereby modifying insect demographic processes and possibly increasing the frequency and intensity of rangeland and crop impacts by pest insects. We leveraged ten years of migratory grasshopper (Melanoplus sanguinipes) field surveys to assess the response of nymph recruitment to projected climate conditions through the year 2040. Melanoplus sanguinipes is the foremost pest of grain, oilseed, pulse, and rangeland forage crops in the western United States. To assess nymph recruitment, we developed a multi-level, joint modeling framework that individually assessed nymph and adult life stages while concurrently incorporating density-dependence and accounting for observation bias connected to preferential sampling. Our results indicated that nymph recruitment rates will exhibit strong geographic variation under projected climate change, with population sizes at many locations being comparable to those historically observed, but other locations experiencing increased insect abundances. Our findings suggest that alterations to prevailing temperature and precipitation regimes as instigated by climate change will amplify recruitment, thereby enlarging population sizes and potentially intensifying agricultural pest impacts by 2040.},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
 @article{ibanez2013,
@@ -664,12 +605,10 @@
   pages = {174--184},
   issn = {03076946},
   doi = {10.1046/j.1365-2311.1998.00112.x},
-  urldate = {2022-02-21},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
-@incollection{joern2000a,
+@incollection{joern2000,
   title = {What Are the Consequences of Non-Linear Ecological Interactions for Grasshopper Control Strategies?},
   booktitle = {Grasshoppers and Grassland Health: Managing Grasshopper Outbreaks without Risking Environmental Disaster},
   author = {Joern, A},
@@ -679,8 +618,7 @@
   volume = {73},
   pages = {131--144},
   publisher = {{Springer}},
-  address = {{Dordrecht}},
-  keywords = {\#duplicate-citation-key}
+  address = {{Dordrecht}}
 }
 
 @article{joern2004,
@@ -694,9 +632,7 @@
   pages = {1617--1625},
   issn = {0046-225X},
   doi = {10.1603/0046-225X-33.6.1617},
-  urldate = {2021-12-14},
-  abstract = {While weather can contribute significantly to grasshopper population dynamics in North American grasslands, local environmental conditions resulting from land use practices may be equally important. In this study, significant differences in grasshopper density were detected among adjacent watersheds from Kansas Flint Hills tallgrass prairie that differed in fire frequency and especially bison grazing treatments. Grasshopper densities were \&amp;ap;2.5 times greater in grazed watersheds compared with ungrazed ones. Grasshopper densities also varied somewhat in response to fire frequency, mostly in species-specific ways. No treatment interactions on overall grasshopper density were detected. The effects of fire frequency and bison grazing were implemented in part through their combined effect on the structural heterogeneity of vegetation, and other habitat characteristics. Individual grasshopper species responded uniquely to combinations of fire frequency and bison grazing. Grazing resulted in significant increases in density for seven of the nine most abundant species; fire frequency affected two species; and one species did not respond to either fire or grazing. Understanding effects of habitat on grasshopper densities provides opportunities to manage these populations for economic or conservation needs.},
-  keywords = {\#duplicate-citation-key}
+  abstract = {While weather can contribute significantly to grasshopper population dynamics in North American grasslands, local environmental conditions resulting from land use practices may be equally important. In this study, significant differences in grasshopper density were detected among adjacent watersheds from Kansas Flint Hills tallgrass prairie that differed in fire frequency and especially bison grazing treatments. Grasshopper densities were \&amp;ap;2.5 times greater in grazed watersheds compared with ungrazed ones. Grasshopper densities also varied somewhat in response to fire frequency, mostly in species-specific ways. No treatment interactions on overall grasshopper density were detected. The effects of fire frequency and bison grazing were implemented in part through their combined effect on the structural heterogeneity of vegetation, and other habitat characteristics. Individual grasshopper species responded uniquely to combinations of fire frequency and bison grazing. Grazing resulted in significant increases in density for seven of the nine most abundant species; fire frequency affected two species; and one species did not respond to either fire or grazing. Understanding effects of habitat on grasshopper densities provides opportunities to manage these populations for economic or conservation needs.}
 }
 
 @article{joern2005,
@@ -735,10 +671,8 @@
   pages = {19--36},
   issn = {0066-4170, 1545-4487},
   doi = {10.1146/annurev-ento-120811-153540},
-  urldate = {2022-02-07},
   abstract = {Arthropods are an important component of grassland systems, contributing significantly to biodiversity and ecosystem structure and function. Climate, fire, and grazing by large herbivores are important drivers in grasslands worldwide. Arthropod responses to these drivers are highly variable and clear patterns are difficult to find, but responses are largely indirect with respect to changes in resources, species interactions, habitat structure, and habitat heterogeneity resulting from interactions among fire, grazing, and climate. Here, we review these ecological mechanisms influencing grassland arthropod diversity. We summarize hypotheses describing species diversity at local and regional scales and then discuss specific factors that may affect arthropod diversity in grassland systems. These factors include direct and indirect effects of grazing, fire, and climate, species interactions, above- and belowground interactions, and landscape-level effects.},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
 @article{jonas2008,
@@ -807,7 +741,6 @@
   journal = {Frontiers in Ecology and Evolution},
   volume = {7},
   issn = {2296-701X},
-  urldate = {2022-04-28},
   abstract = {Connections between locusts and people date back millennia and locusts remain a major food security challenge today throughout the world. Locust biology is often linked to abiotic conditions like temperature and/or precipitation, fueling the perception that aside from active control, humans are not key players in the interaction locusts have with their environment. However, several studies have shown that land management practices like grazing heavily influences locust-human linkages. In this review we synthesize published research and reports on connections between locust outbreaks and ranching. For this, we conducted an extensive literature search using Google Scholar on the 19 species of grasshoppers that are currently considered to be locusts or non-model locusts. Species were sorted according to their feeding guilds: (1) forb- and/or tree-feeding locusts; (2) mix-feeding locusts (grasses, forbs, and/or trees); (3) grass-feeding locusts. We review their pest status, ecology, and relationship with grazing. We then discuss the overall data and draw general patterns on how locusts and locust control affect livestock grazing through various mechanisms (competition, nutritional preferences, pesticide use, nutrient cycling). We draw attention to ``telecoupling'' a process in which land management practices like grazing have ecological feedbacks on locust populations, which in turn affects food security in distant regions due to the migratory capacity of locusts. Finally, we present new perspectives for sustainable management practices that integrate understanding of land management.}
 }
 
@@ -859,7 +792,6 @@
   pages = {1209--1214},
   issn = {0046-225X},
   doi = {10.1603/EN13349},
-  urldate = {2022-11-08},
   abstract = {Grasshoppers (Orthoptera: Acrididae) are important arthropods in the grassland ecosystem as sources of herbivory, nutrient recycling through frass production, and as prey items for other insects, mammals, and birds. It has been observed in previous research that common Acrididae subfamilies have dietary preferences: many species of Gomphocerinae are specialists on grass plants, many Melanoplinae species are polyphagous forb eaters. We characterized the community of Acrididae along a vegetation gradient in the Beaver River Wildlife Management Area, Beaver County, OK, and tested the hypothesis that these subfamilies would be in greater abundance in areas dominated by their preferred food resource. Vegetation types were characterized into four different functional groups: grass, forb, litter, and bare ground. The proportion of cover of functional groups was found to be correlated with relative abundance of Gomphocerinae and Melanoplinae grasshoppers. Gomphocerinae were in greater abundance in vegetation types consisting of a larger proportion of grass. Melanoplinae were in greater abundance in vegetation types consisting of larger proportions of forb cover. A factor analysis indicated that forb cover and grass cover contributed more than litter and bare ground cover to the relative abundance of these grasshopper subfamilies and it is our conclusion that this is evidence for dietary-based habitat partitioning as observed through subfamilial relative abundance.},
   file = {C\:\\Users\\devan.mcgranahan\\Zotero\\storage\\G3Q326PX\\Masloski et al. - 2014 - Evidence for Diet-Driven Habitat Partitioning of M.pdf;C\:\\Users\\devan.mcgranahan\\Zotero\\storage\\IZHFW4E5\\566626.html}
 }
@@ -876,10 +808,8 @@
   pages = {447--456},
   issn = {1572-9753},
   doi = {10.1007/s10841-014-9654-4},
-  urldate = {2021-12-14},
   abstract = {Global biodiversity hotspots are rich in endemic insect species, many of which are threatened by the ongoing anthropogenic pressures on their habitats. The Cape region (South Africa) is one of these biodiversity hotspots, maintaining a high number of endemics. However, the ecology of most insect species in this region remains poorly understood. The two Orthoptera species Betiscoides meridionalis and Betiscoides parva are endemic to the Cape region and specialized on restio vegetation. They are threatened by increasing wildfire frequencies and invasions of non-native plant species. However, this information has been inferred from habitat changes, whereas no ecological study on these species has been conducted since they have been described. In order to facilitate conservation management, information on the ecology of these species is urgently required. The aim of our study was (1) to obtain data on the population ecology (particularly population sizes and mobility), and (2) to study the behavior of both species in response to environmental factors. For this purpose a mark-recapture-study and an observational behavior study were conducted. Both species had small population sizes and a low mobility with males moving greater distances than females. Wind had a strong influence on the behavior of Betiscoides, particularly on the small males of B. parva. Future studies might thus focus on the question whether wind-exposure is a critical factor for habitat choice of this species. We strongly recommend enhancing the connectivity of restio habitats and restoring these habitats to prevent extinction of specialized insect species.},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
 @article{mcgranahan2016,
@@ -892,10 +822,9 @@
   pages = {555--560},
   issn = {1939-9170},
   doi = {10.1890/15-0906.1},
-  urldate = {2021-12-14},
   abstract = {Ecological theory predicts that diversity decreases variability in ecosystem function. We predict that, at the landscape scale, spatial variability created by a mosaic of contrasting patches that differ in time since disturbance will decrease temporal variability in aboveground plant biomass. Using data from a multi-year study of seven grazed tallgrass prairie landscapes, each experimentally managed for one to eight patches, we show that increased spatial variability driven by spatially patchy fire and herbivory reduces temporal variability in aboveground plant biomass. This pattern is associated with statistical evidence for the portfolio effect and a positive relationship between temporal variability and functional group synchrony as predicted by metacommunity variability theory. As disturbance from fire and grazing interact to create a shifting mosaic of spatially heterogeneous patches within a landscape, temporal variability in aboveground plant biomass can be dampened. These results suggest that spatially heterogeneous disturbance regimes contribute to a portfolio of ecosystem functions provided by biodiversity, including wildlife habitat, fuel, and forage. We discuss how spatial patterns of disturbance drive variability within and among patches.},
   langid = {english},
-  keywords = {\#duplicate-citation-key,asynchrony,diversity\textendash stability relationship,ecosystem function,fire\textendash grazing interaction,metacommunity variability,patch burn-grazing,portfolio effect,pyric herbivory}
+  keywords = {asynchrony,diversity–stability relationship,ecosystem function,fire–grazing interaction,metacommunity variability,patch burn-grazing,portfolio effect,pyric herbivory}
 }
 
 @article{mcgranahan2018,
@@ -909,23 +838,46 @@
   pages = {517--521},
   issn = {0142-5242, 1365-2494},
   doi = {10.1111/gfs.12338},
-  urldate = {2022-02-20},
   abstract = {Global climate change is expected to alter carbon dioxide concentration ([CO2]) and water availability, with uncertain impacts on agriculture. Forage quality and quantity in grazing systems are of particular concern because C3 and C4 plants respond differently to altered environmental conditions. In a growth chamber, we compared crude protein content, biomass recovery and total crude protein across a set of perennial C3 and C4 grasses from the northern U.S. Great Plains under elevated [CO2] and simulated drought. Simulated 95\% confidence intervals indicate both C3 and C4 grasses increased forage quality and quantity under elevated [CO2]. C4 grasses were generally resistant to water limitation while forage quality and quantity of C3 grasses declined under simulated drought. Our results are consistent with literature on forage quantity responses to elevated [CO2] and drought, but forage quality responses contradict expectations. We suggest measuring plant functional traits might better elucidate response mechanisms and ameliorate methodological differences even if traits are not directly applicable to grazing management.},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
-@book{mcgranahan2021a,
+@article{bock1991,
+ abstract = {We measured vegetation cover and grasshopper densities on 50 plots in an ungrazed Arizona grassland between 1984 and 1989. A 1987 wildfire completely burned 22 of the plots, reducing grass cover and increasing bare ground and herb cover for 2 postfire growing seasons. Combined adult and nymph grasshopper densities declined over 60\% on burned plots relative to unburned plots in the 1st postfire yr, but these differences disappeared by the 2nd yr. Some species known to prefer habitats with much bare ground and/or herbaceous foods temporarily increased following the fire. However, most species, and two of three subfamilies, declined temporarily, probably as a result of direct fire-caused mortality and fire-induced reductions in grass cover.},
+ author = {Carl E. Bock and Jane H. Bock},
+ journal = {The American Midland Naturalist},
+ number = {1},
+ pages = {162--167},
+ doi = {10.2307/2426379},
+ title = {Response of Grasshoppers {(Orthoptera: Acrididae)} to Wildfire in a {Southeastern Arizona} Grassland},
+ volume = {125},
+ year = {1991}
+}
+
+
+
+@article{branson2014,
+  title={Insect herbivory and vertebrate grazing impact food limitation and grasshopper populations during a severe outbreak},
+  author={Branson, David H and Haferkamp, Marshall A},
+  journal={Ecological Entomology},
+  volume={39},
+  number={3},
+  pages={371--381},
+  year={2014}, 
+  doi = {10.1111/een.12114}
+}
+
+
+@book{mcgranahan2021,
   title = {Ecology of {{Fire-Dependent Ecosystems}}: {{Wildland Fire Science}}, {{Policy}}, and {{Management}}},
   author = {McGranahan, Devan Allen and Wonkka, Carissa L},
   year = {2021},
   publisher = {{CRC Press}},
   address = {{Boca Raton, FL}},
-  isbn = {0-429-94493-4},
-  keywords = {\#duplicate-citation-key}
+  isbn = {0-429-94493-4}
 }
 
-@article{mcgranahan2022b,
+@article{mcgranahan2022,
   title = {Mineral Nitrogen and Microbial Responses to Soil Heating in Burned Grassland},
   author = {McGranahan, Devan Allen and Wonkka, Carissa L and Dangi, Sadikshya and Spiess, Jonathan W and Geaumont, Benjamin},
   year = {2022},
@@ -933,8 +885,7 @@
   volume = {424},
   pages = {116023},
   publisher = {{Elsevier}},
-  issn = {0016-7061},
-  keywords = {\#duplicate-citation-key}
+  issn = {0016-7061}
 }
 
 @article{meyer2002,
@@ -948,9 +899,7 @@
   pages = {52--61},
   issn = {1046-2821},
   doi = {10.1093/ae/48.1.52},
-  urldate = {2021-12-14},
-  abstract = {Secondary production of the acridid community on Konza Prairie Biological Station, Kansas, was estimated to evaluate its significance to energy and nutrient cycling in annually burned and long-term unburned tallgrass prairie. A drop-trap and vacuum device were used to sample acridids on three watersheds in both the burned and unburned prairies during the 1998 and 1999 growing seasons. Production of common species was estimated using the instantaneous growth method, and consumption and egestion were estimated using ecological efficiencies. Total acridid abundance, biomass, and production estimates showed a trend of higher values on burned than on unburned watersheds during both years with significantly higher biomass and production on burned watersheds during 1998 ( P \&lt; 0.05). Higher biomass and production on burned watersheds was primarily a result of higher values for graminivorous taxa. Forb-feeder and grass-feeder production was more similar on unburned than on burned watersheds, although responses of individual species varied greatly between the two watershed types and years. Grass-feeders and forb-feeders consumed an estimated 0.4-4.7 g ash-free dry mass (AFDM) m -2 yr -1 of grass and 0.7-2.1 g AFDM m -2 yr -1 of forbs, respectively, depending on watershed type and year. Results indicate that acridids are important in nitrogen cycling. However, their relative importance to energy and nutrient cycling in tallgrass prairie varies with plant responses to burning and may be influenced by ungulate grazing.},
-  keywords = {\#duplicate-citation-key}
+  abstract = {Secondary production of the acridid community on Konza Prairie Biological Station, Kansas, was estimated to evaluate its significance to energy and nutrient cycling in annually burned and long-term unburned tallgrass prairie. A drop-trap and vacuum device were used to sample acridids on three watersheds in both the burned and unburned prairies during the 1998 and 1999 growing seasons. Production of common species was estimated using the instantaneous growth method, and consumption and egestion were estimated using ecological efficiencies. Total acridid abundance, biomass, and production estimates showed a trend of higher values on burned than on unburned watersheds during both years with significantly higher biomass and production on burned watersheds during 1998 ( P \&lt; 0.05). Higher biomass and production on burned watersheds was primarily a result of higher values for graminivorous taxa. Forb-feeder and grass-feeder production was more similar on unburned than on burned watersheds, although responses of individual species varied greatly between the two watershed types and years. Grass-feeders and forb-feeders consumed an estimated 0.4-4.7 g ash-free dry mass (AFDM) m -2 yr -1 of grass and 0.7-2.1 g AFDM m -2 yr -1 of forbs, respectively, depending on watershed type and year. Results indicate that acridids are important in nitrogen cycling. However, their relative importance to energy and nutrient cycling in tallgrass prairie varies with plant responses to burning and may be influenced by ungulate grazing.}
 }
 
 @book{millard2013,
@@ -959,29 +908,25 @@
   year = {2013},
   publisher = {{Springer}},
   address = {{New York}},
-  isbn = {978-1-4614-8455-4},
-  keywords = {\#duplicate-citation-key}
+  isbn = {978-1-4614-8455-4}
 }
 
-@article{moretti2013a,
+@article{moretti2013,
   title = {Linking Traits between Plants and Invertebrate Herbivores to Track Functional Effects of Land-use Changes},
   author = {Moretti, Marco and {de Bello}, Francesco and Ibanez, S{\'e}bastien and Fontana, Simone and Pezzatti, Gianni B and Dziock, Frank and Rixen, Christian and Lavorel, Sandra},
   year = {2013},
   journal = {Journal of Vegetation Science},
   volume = {24},
   number = {5},
-  pages = {949--962},
-  publisher = {{Wiley Online Library}},
-  issn = {1100-9233},
-  keywords = {\#duplicate-citation-key}
+  pages = {949--962}
 }
 
-@article{mulkern1962,
-  title = {Biology and Ecology of {{North Dakota}} Grasshoppers. 1. {{Food}} Habits and Preferences of Grasshoppers Associated with Alfalfa Fields.},
+@book{mulkern1962,
+  title = {Biology and Ecology of {{North Dakota}} Grasshoppers. 1. {{Food}} Habits and Preferences of Grasshoppers Associated with Alfalfa Fields},
   author = {Mulkern, Gregory B and Anderson, John Frederic and Brusven, Merlyn Ardel},
   year = {1962},
-  journal = {Biology and ecology of North Dakota grasshoppers. 1. Food habits and preferences of grasshoppers associated with alfalfa fields.},
-  publisher = {{N. Dakota Agric. Exp. Stat.}}
+  publisher = {{North Dakota Agricultural Experiment Station}}, 
+  address = {Fargo {ND}}
 }
 
 @article{olfert2021,
@@ -997,13 +942,11 @@
   pages = {122--130},
   issn = {0022-0493, 1938-291X},
   doi = {10.1093/jee/toaa254},
-  urldate = {2022-02-10},
   abstract = {Grasshoppers have been a chronic problem for agriculture on the Canadian prairies, the northern limits of the Northern Great Plains, since settlement of the region in the mid-1800s. Grasshopper pest management tools include biological control, cultural control, and insecticides. This article describes a mechanistic, or processbased, modeling approach used to assess the development and abundance of the migratory grasshopper, Melanoplus sanguinipes (Fabricius), based on a complex of environmental drivers. The purpose of the study was to develop and validate a model (using extensive field data) to quantify the effects of interannual weather variation on M. sanguinipes development and abundance in Saskatchewan, Canada. Overall, the accuracy of model predictions improved for later instars and adults such that predictions regarding adult populations were highly similar to field-collected data.The model provides greater understanding of how M. sanguinipes oviposition is related not only to adult densities, but also to the first appearance of adults and to weather conditions during the oviposition period. The model output can be used to provide accurate within-season updates of the status of grasshopper populations in western Canada to optimize pest management.},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
-@article{oneill2003a,
+@article{oneill2003,
   title = {Effects of Livestock Grazing on Rangeland Grasshopper ({{Orthoptera}}: {{Acrididae}}) Abundance},
   author = {O'Neill, Kevin M and Olson, Bret E and Rolston, Marni G and Wallander, Roseann and Larson, Deanna P and Seibert, Catherine E},
   year = {2003},
@@ -1015,7 +958,7 @@
   issn = {0167-8809},
   doi = {10.1016/S0167-8809(03)00136-1},
   abstract = {Livestock may impact habitat quality for grasshoppers by reducing food availability and by altering microclimate and potential oviposition sites. A 5-year study was conducted to create consistent grazing impacts on replicated plots and measure their effects on plant cover, microclimate, and grasshopper abundance. Cattle were used to produce two levels of grazing intensity that were compared to ungrazed controls. Differences in plant cover were greatest immediately after grazing each summer, grasshopper microhabitats tending to be shadier, cooler, less windy, and more humid in the ungrazed plots. The grasshopper assemblage included five of the worst pest grasshopper species in North America: Ageneotettix deorum, Aulocara elliotti, Melanoplus sanguinipes, M. packardii, and Camnula pellucida. Most species had greater abundance on ungrazed pastures, particularly during the 4\textendash 6 weeks after grazing each year. However, A. elliotti was often more abundant in heavily grazed areas early in the year when early instars were present and in late summer when adults were predominant. There was no strong evidence that the effect of grazing on grasshopper abundance increased over the 5-year study. At this time, all changes in grasshopper numbers cannot be directly attributed to particular habitat characteristics that changed after grazing, but the results suggest that grazing management could be used to reduce pest grasshopper densities.},
-  keywords = {\#duplicate-citation-key,Cattle,Grasshopper assemblages,Grazing management,Microclimate,Montana,Pest Management,USA}
+  keywords = {Cattle,Grasshopper assemblages,Grazing management,Microclimate,Montana,Pest Management,USA}
 }
 
 @article{onsager1977,
@@ -1029,9 +972,7 @@
   pages = {187--190},
   issn = {0022-0493},
   doi = {10.1093/jee/70.2.187},
-  urldate = {2022-02-20},
-  abstract = {The frequency distribution of rangeland grasshoppers within subsamples was generally in agreement with the Poisson distribution. The accuracy and precision of density estimates varied significantly between sampling methods. The most reliable methods were those that mechanically delineated boundaries of the subsamples. Night cages were most reliable, followed closely by cage or net samplers, and all were superior to methods that required visual estimation of subsample boundaries. Unfortunately, accuracy and precision of the sampling methods were inversely related to convenience.},
-  keywords = {\#duplicate-citation-key}
+  abstract = {The frequency distribution of rangeland grasshoppers within subsamples was generally in agreement with the Poisson distribution. The accuracy and precision of density estimates varied significantly between sampling methods. The most reliable methods were those that mechanically delineated boundaries of the subsamples. Night cages were most reliable, followed closely by cage or net samplers, and all were superior to methods that required visual estimation of subsample boundaries. Unfortunately, accuracy and precision of the sampling methods were inversely related to convenience.}
 }
 
 @incollection{onsager2000,
@@ -1043,11 +984,10 @@
   pages = {145--156},
   publisher = {{Springer Netherlands}},
   address = {{Dordrecht}},
-  urldate = {2022-02-10},
   abstract = {Grasshoppers are the most important insect pests of grasslands within the Great Plains of North America. The extent to which this large expanse has been disturbed by human intervention varies considerably. At one extreme, there are some conservation grasslands where no human enterprise is permitted; but at the other extreme, most of the grasslands in the Great Plains have been brought under cultivation. Current management tools include monitoring and surveying grasshopper abundance, chemical control, biological control and cultural control.},
   isbn = {978-94-011-4337-0},
   langid = {english},
-  keywords = {\#duplicate-citation-key,Biotic Potential,Geographic Information System,Grasshopper Species,Northern Great Plain,Rotational Grazing}
+  keywords = {Biotic Potential,Geographic Information System,Grasshopper Species,Northern Great Plain,Rotational Grazing}
 }
 
 @article{onsager2000a,
@@ -1084,10 +1024,8 @@
   pages = {251--261},
   issn = {1435-0645},
   doi = {10.2134/agronj2002.2510},
-  urldate = {2021-12-14},
   abstract = {The northern Great Plains have long been dominated by conventional tillage systems and cereal-based rotations including summer fallow. Over the last decade, however, the use of conservation tillage systems has markedly increased and, through improved moisture storage, has provided an opportunity for more diversified extended rotations including oilseed, pulse, and forage crops throughout the region. Considerable research is being carried out to assess the adaptability of these new crops and to develop appropriate management strategies. Typically, this type of agronomic research is carried out at plot-sized research sites, with the findings then being extrapolated to surrounding regions where growing conditions are thought to be reasonably similar. Because the environment itself largely dictates the success of a particular cropping system, extrapolation requires knowledge of the environmental conditions of the region and, in particular, the interaction of environmental components of soil and climate in relation to specific crop requirements. This paper describes 14 agroecoregions in the northern Great Plains and provides an initial framework for extrapolating agronomic information at broad regional scales. Because climate is the dominant crop production factor in the region, most of the agroecosystems represent broad climatic zones. Each agroecoregion is described in terms of its soil and landscape characteristics, with a particular focus being given to likely key environmental parameters related to the production of the new oilseed, pulse, and forage crops being introduced in the region.},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
 @article{parker1985,
@@ -1097,14 +1035,10 @@
   journal = {Journal of Ecology},
   volume = {73},
   number = {3},
-  eprint = {2260156},
-  eprinttype = {jstor},
   pages = {903--913},
   issn = {00220477, 13652745},
   doi = {10.2307/2260156},
-  urldate = {2022-02-20},
-  abstract = {[(1) In arid grasslands of central New Mexico, U.S.A., the shrub Gutierrezia microcephala is attacked by the specialist grasshopper Hesperotettix viridis. Grasshopper exclosure and vegetation removal experiments were conducted to measure the effects of herbivory and within- and between-species competition on the performance of second year Gutierrezia microcephala plants. (2) In 1980, 93\% of plants in the natural vegetation were defoliated. The frequency of defoliation did not vary with plant size, distance from mature conspecifics, or with local vegetation composition. (3) The annual mortality of second year plants protected from grasshoppers was 8\% and did not vary when either conspecifics or perennial grasses or both types of competitors were removed from within 0.5 m of each plant. The death rate for plants exposed to grasshoppers was greatly affected by the presence of neighbouring plants; it ranged from 22\% when all neighbouring plants were removed to 47\% when the vegetation was left intact. Thus, the effect of competition on survivorship depended heavily on whether plants were also experiencing herbivore attack. (4) Protection from herbivory significantly increased plant growth in the following year as measured by changes in plant height and number of stems. Growth was also significantly increased by the removal of nearby perennial grasses. No significant interactions were observed between the effects of herbivore exclosure and competitor removal on plant growth. (5) Both protection from grasshoppers and removal of neighbouring plants significantly increased the size of annual wood increments in stems. (6) Comparison of these results for second year plants with studies of seedlings and of mature plants indicates that G. microcephala gradually becomes tolerant both to herbivore attack and between-species competition during its ontogeny.]},
-  keywords = {\#duplicate-citation-key}
+  abstract = {[(1) In arid grasslands of central New Mexico, U.S.A., the shrub Gutierrezia microcephala is attacked by the specialist grasshopper Hesperotettix viridis. Grasshopper exclosure and vegetation removal experiments were conducted to measure the effects of herbivory and within- and between-species competition on the performance of second year Gutierrezia microcephala plants. (2) In 1980, 93\% of plants in the natural vegetation were defoliated. The frequency of defoliation did not vary with plant size, distance from mature conspecifics, or with local vegetation composition. (3) The annual mortality of second year plants protected from grasshoppers was 8\% and did not vary when either conspecifics or perennial grasses or both types of competitors were removed from within 0.5 m of each plant. The death rate for plants exposed to grasshoppers was greatly affected by the presence of neighbouring plants; it ranged from 22\% when all neighbouring plants were removed to 47\% when the vegetation was left intact. Thus, the effect of competition on survivorship depended heavily on whether plants were also experiencing herbivore attack. (4) Protection from herbivory significantly increased plant growth in the following year as measured by changes in plant height and number of stems. Growth was also significantly increased by the removal of nearby perennial grasses. No significant interactions were observed between the effects of herbivore exclosure and competitor removal on plant growth. (5) Both protection from grasshoppers and removal of neighbouring plants significantly increased the size of annual wood increments in stems. (6) Comparison of these results for second year plants with studies of seedlings and of mature plants indicates that G. microcephala gradually becomes tolerant both to herbivore attack and between-species competition during its ontogeny.]}
 }
 
 @article{parrini2010,
@@ -1117,10 +1051,9 @@
   pages = {526--534},
   issn = {1365-2028},
   doi = {10.1111/j.1365-2028.2009.01143.x},
-  urldate = {2021-12-14},
   abstract = {Burning is commonly used in savannas to stimulate grass regrowth for grazing ungulates. We recorded the relative use of burns occurring at different stages in the seasonal cycle, as well as in different regions of the landscape by two herds of sable. We also recorded behavioural measures of foraging efficiency and faecal nutrient contents as an indication of nutrient gains. Sable consistently concentrated their grazing on burned areas provided there was sufficient green regrowth during the dry season. In these circumstances they grazed for longer per feeding station, showed a slower step rate while foraging, and shorter between-patch moves, and a higher probability of encountering acceptable food per step taken while foraging than on unburnt areas. In the year when only a burn with insufficient regrowth was available, sable continued to forage in the area that had been burned during the previous year. Faecal crude protein was substantially higher at the end of the dry season in the year when burned areas were utilized. Accordingly early dry season fires can be important in helping sable bridge the nutritional limitations posed by the dry season, provided sufficient soil moisture remains to promote adequate grass regrowth.},
   langid = {english},
-  keywords = {\#duplicate-citation-key,burned grassland,faecal nitrogen,faecal phosphorus,fire management,foraging behaviour,Hippotragus niger}
+  keywords = {burned grassland,faecal nitrogen,faecal phosphorus,fire management,foraging behaviour,Hippotragus niger}
 }
 
 @article{price1991,
@@ -1151,8 +1084,7 @@
   author = {{R Core Team}},
   year = {2020},
   address = {{Vienna, Austria}},
-  organization = {{R Foundation for Statistical Computing}},
-  keywords = {\#duplicate-citation-key}
+  organization = {{R Foundation for Statistical Computing}}
 }
 
 @article{rebrina2022,
@@ -1178,7 +1110,6 @@
   pages = {22--27},
   issn = {1550-7424},
   doi = {10.1016/j.rama.2021.07.006},
-  urldate = {2022-04-28},
   abstract = {Managing grasslands to sequester carbon is of global importance, but effects of grazing on soil organic carbon (SOC) stocks remain uncertain. We quantified effects of livestock grazing (grazed or not for 9-26 yr) and soil texture on SOC stocks (kg\,\texttimes\,m-2) of 20 sites in a temperate grassland. We also quantified the effects of livestock grazing on SOC concentration and bulk density. Percent sand explained a considerable amount of the variation in SOC stock (r2\,=\,0.45 to 0.59). In addition, SOC stocks were 12\% less in areas rested from livestock grazing (i.e., not grazed) than annually grazed. Soil carbon concentrations were also 10\% less in rested than grazed areas. Bulk density was 2\% less in areas rested from grazing, but bulk density was greater at sites with longer periods of rest. We also detected a grazing treatment and rest duration interaction, indicating that bulk density differences between grazing treatments tended to be greater at sites with longer periods of rest. Compared with no grazing, moderate grazing tended to increase SOC stocks and concentrations. Although compaction (i.e., increase in bulk density) is generally regarded as an indicator of declining soil health, minor compaction may help reduce mineralization of SOC and ultimately increase SOC stocks. We discuss methodological improvements needed for a next generation of grazing land experiments to better resolve how best to manage livestock and sequester carbon.},
   langid = {english},
   keywords = {carbon sequestration,climate change,grazing,soil organic carbon,soil organic carbon density,soil organic carbon stock},
@@ -1195,10 +1126,9 @@
   pages = {1853--1862},
   issn = {1600-0706},
   doi = {10.1111/oik.05272},
-  urldate = {2021-12-14},
   abstract = {Ecological effects of climate change are difficult to predict because climate change is a multi-variable phenomenon that can impact ecosystems through diverse pathways. Despite this fact, climate change ecology research has been dominated by relatively simplistic experiments and models. To test the importance of assessing more realistic climate and ecological scenarios an experiment was conducted to assess the interactive effects of multiple climate change variables (warming, drought) on survival and reproductive fitness across three trophic levels within a well-studied terrestrial food web. The effects of warming and drought on the nutrient content of plants and how such changes may affect consumers was also examined. Results showed that warming and drought in combination can significantly alter the nutrient profiles of plants relative to climate variables in isolation and that multi-variable climate change can severely impact plant reproductive fitness. Also, consumer nutrient profiles did not shift in accordance with their resources, but reproductive fitness of grasshoppers was nonetheless severely affected by warming and drought in combination. Predator survival rates decreased by more than 45\% under all climate change scenarios, highlighting the variable responses of different trophic levels. The impacts across the entire food web were likely caused by a combination of metabolic changes due to warming, dehydration, altered nutrient availability and resource quality, and behavioral shifts. The results suggest that realistic climate change scenarios could dramatically affect long-term demographic patterns as well as food web dynamics, and that single variable studies may fail to reveal the true impacts of climate change.},
   langid = {english},
-  keywords = {\#duplicate-citation-key,climate change,grass,Melanoplus femurrubrum,New England,nutrition,Pisaurina mira,Solidago rugosa,stoichiometry}
+  keywords = {climate change,grass,Melanoplus femurrubrum,New England,nutrition,Pisaurina mira,Solidago rugosa,stoichiometry}
 }
 
 @article{samways2001,
@@ -1209,7 +1139,6 @@
   volume = {10},
   number = {11},
   pages = {1963--1981},
-  urldate = {2013-08-15},
   file = {C\:\\Users\\devan.mcgranahan\\Zotero\\storage\\W9G2MX4A\\Samways and Kreuzinger - 2001 - Vegetation, ungulate and grasshopper interactions .pdf}
 }
 
@@ -1236,7 +1165,6 @@
   pages = {366--378},
   issn = {1672-9609},
   doi = {10.1111/1744-7917.12528},
-  urldate = {2022-04-21},
   abstract = {Abstract Seminatural grasslands provide habitats for various species and are important for biodiversity conservation. The understanding of the diverse responses of species and traits to different grassland management methods is therefore urgently needed. We disentangled the role of grassland management (fertilization and irrigation), vegetation structure (biomass, sward height) and plant quality (protein and fiber content) for Orthoptera communities in lowland hay meadows in Germany. We found vegetation structure to be the most important environmental category in explaining community structure of Orthoptera (species richness, total individuals, functional diversity and species composition). Intensively used meadows (fertilized, irrigated, high plant biomass) were characterized by assemblages with few species, low functional diversity, and low conservation value. Thereby, the relatively moderate fertilizer inputs in our study system of up to ?75 kg N/ha/year reduced functional diversity of Orthoptera, while this negative effect of fertilization was not detectable when solely considering taxonomic aspects. We found strong support for a prominent role of plant quality in shaping Orthoptera communities and especially the trait composition. Our findings demonstrate the usefulness of considering both taxonomic and functional components (functional diversity) in biodiversity research and we suggest a stronger involvement of plant quality measures in Orthoptera studies.},
   keywords = {biomass,fertilization,functional diversity,grasshoppers,grassland,protein content}
 }
@@ -1258,13 +1186,11 @@
   author = {Schmitz, Oswald J.},
   year = {2010},
   month = jul,
-  urldate = {2021-12-14},
   isbn = {978-0-691-12849-8},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
-@article{sensenig2010d,
+@article{sensenig2010,
   title = {Allometric Scaling Predicts Preferences for Burned Patches in a Guild of {{East African}} Grazers},
   author = {Sensenig, Ryan L. and Demment, Montague W. and Laca, Emilio A.},
   year = {2010},
@@ -1275,14 +1201,13 @@
   pages = {2898--2907},
   issn = {0012-9658},
   doi = {10.1890/09-1673.1},
-  urldate = {2022-04-21},
   abstract = {The high herbivore diversity in savanna systems has been attributed to the inherent spatial and temporal heterogeneity related to the quantity and quality of food resources. Allometric scaling predicts that smaller-bodied grazers rely on higher quality forage than larger-bodied grazers. We replicated burns at varying scales in an East African savanna and measured visitation by an entire guild of larger grazers ranging in size from hare to elephant. We found a strong negative relationship between burn preference and body mass with foregut fermenters preferring burns to a greater degree than hindgut fermenters. Burns with higher quality forage were preferred more than burns with lower quality forage by small-bodied grazers, while the opposite was true for large-bodied grazers. Our results represent some of the first experimental evidence demonstrating the importance of body size in predicting how large herbivores respond to fire-induced changes in plant quality and quantity.},
-  keywords = {\#duplicate-citation-key,African ungulates,allometric scaling,body size,ecophysiology,fire ecology,grazing ecology,hindgut fermenter,resource partitioning,savanna}
+  keywords = {African ungulates,allometric scaling,body size,ecophysiology,fire ecology,grazing ecology,hindgut fermenter,resource partitioning,savanna}
 }
 
 @article{spalinger2012,
   title = {Impact of Wild Ungulate Grazing on {{Orthoptera}} Abundance and Diversity in Subalpine Grasslands},
-  author = {Spalinger, LENA C. and Haynes, ALAN G. and SCH{\"U}TZ, {\relax MARTIN} and RISCH, ANITA C.},
+  author = {Spalinger, LENA C. and Haynes, ALAN G. and SCH{\"U}TZ, MARTIN and RISCH, ANITA C.},
   year = {2012},
   month = nov,
   journal = {Insect Conservation and Diversity},
@@ -1291,7 +1216,6 @@
   pages = {444--452},
   issn = {1752-458X},
   doi = {10.1111/j.1752-4598.2011.00180.x},
-  urldate = {2022-04-21},
   abstract = {1. Grasslands cover approximately 40\% of the Earth?s terrestrial landscape, supporting large communities of vertebrate and invertebrate herbivores. Orthoptera play an important role, consuming relatively large amounts of biomass. Their occurrence can be strongly affected by habitat diversity and structure, which can be shaped by large herbivores. Several studies have focused on the impact of livestock on Orthoptera communities, but little is known about how wild ungulates influence the abundance and diversity of these insects in grassland ecosystems. 2.?We studied Orthoptera abundance and diversity in subalpine grasslands in the Swiss Alps, where grazing by red deer and chamois has created a mosaic of short- and tall-grass patches. Data on vegetation structure, habitat diversity and plant nitrogen (N) content allowed us to consider how these parameters affected the occurrence of Orthoptera at our study sites. 3.?We found a total of nine Orthoptera species with an average density of 2.6?individuals?m?2. Neither Orthoptera abundance nor diversity differed between short- and tall-grass patches created by large ungulates. Both Orthoptera abundance and diversity were, however, positively influenced by increasing vegetation height, but negatively by increasing habitat diversity within patches. Increasing plant N content promoted a more even spread of species within the insect assemblage on short- but not on tall-grass patches. 4.?Large-scale habitat alteration by wild ungulates had no direct effect on the abundance and diversity of Orthoptera. However, we observed that they indirectly affected Orthoptera abundance and diversity by altering plant N content and the structure of the habitat at small scales.},
   keywords = {Chamois,habitat structure,red deer,vegetation composition,vegetation height}
 }
@@ -1307,10 +1231,9 @@
   pages = {473--481},
   issn = {1550-7424},
   doi = {10.1016/j.rama.2020.03.003},
-  urldate = {2021-12-14},
   abstract = {Summer droughts in North America's northern Great Plains are expected to increase in frequency and duration as precipitation shifts toward spring and fall. Two rangeland experimental stations in North Dakota experienced drought in 2017 relative to 25-year averages. The southwest location had a 170-mm deficit from the 360-mm normal rainfall and was grazed by cattle (Bos taurus L.) and sheep (Ovis aries L.); the south-central location had 109 mm below the 403-mm normal rainfall and was grazed by cattle. We evaluated patch-burn grazing as a drought resilient land management strategy in the northern Great Plains by comparing average daily gains, fecal density, available forage biomass, and forage crude protein content. At the southwest location, livestock performed better during the drought season compared with animals on the same pastures in the previous year, which had near-normal rainfall but no fire. At the central location, cows on patch-burned pastures performed better than cows on continuously-grazed, unburned pastures in the same year under drought conditions; all cows were nursing calves and calf gains did not vary between treatments. In both locations, the burned patches had higher fecal density and lower available forage biomass than patches not yet burned throughout the grazing season, indicating grazer attraction to burned areas. Despite drought, burned patches maintained grazer attraction and animal performance was maintained or even improved, which contrasts with the expected relationship between animal performance and precipitation. This study indicated that prescribed patch-burning might mitigate drought by buffering forage resources (crude protein content and availability) and maintaining animal performance (average daily gains).},
   langid = {english},
-  keywords = {\#duplicate-citation-key,Cattle,Climatic extremes,drought resiliency,Fire-grazing interaction,patch-burn grazing,pyric herbivory,sheep}
+  keywords = {Cattle,Climatic extremes,drought resiliency,Fire-grazing interaction,patch-burn grazing,pyric herbivory,sheep}
 }
 
 @article{srygley2022,
@@ -1324,9 +1247,7 @@
   pages = {109--113},
   issn = {0307-6946, 1365-2311},
   doi = {10.1111/een.13088},
-  urldate = {2022-02-21},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
 @article{stein1992,
@@ -1341,7 +1262,7 @@
 
 @book{sterner2002,
   title = {Ecological {{Stoichiometry}}: {{Biology}} of {{Elements}} from {{Molecules}} to the {{Biosphere}}},
-  author = {Sterner, {\relax RW} and Elser, James J.},
+  author = {Sterner, RW and Elser, James J.},
   year = {2002},
   publisher = {{Princeton University Press}},
   address = {{Princeton, NJ, USA}},
@@ -1358,15 +1279,14 @@
   pages = {1753--1763},
   issn = {1365-2656},
   doi = {10.1111/1365-2656.13494},
-  urldate = {2021-12-14},
   abstract = {Global climate change is predicted to increase the frequency of droughts, with major impacts on tropical savannas. It has been suggested that during drought, increased soil moisture and nutrients on termite mounds could benefit plants but it is unclear how such benefits could cascade to affect insect communities. Here, we describe the effects of drought on vegetation structure, the cascading implications for invertebrates and how termite mounds influence such effects. We compared how changes in grass biomass affected grasshopper and ant diversity on and off Macrotermes mounds before (2012) and during a drought (2016) at two locations that experienced large variation in drought severity (Skukuza and Pretoriuskop) in the Kruger National Park, South Africa. The 2013\textendash 2016 drought was not ubiquitous across the study site, with rainfall decreasing at Skukuza and being above average at Pretoriuskop. However, grass biomass declined at both locations. Grasshopper abundance decreased at droughted Skukuza both on and off mounds but decreased on mounds and increased off mounds at non-droughted Pretoriuskop. Ant abundance and species richness increased at Skukuza but remained the same on mounds and decreased off mounds at Pretoriuskop. Our results demonstrate the spatially extensive effects of drought. Despite above average rainfall in 2016 at Pretoriuskop, grass biomass decreased, likely due to an influx of large mammalian herbivores from drought-affected areas. This decrease in grass biomass cascaded to affect grasshoppers and ants, further illustrating the effects of drought on invertebrates in adjoining areas with higher rainfall. Our grasshopper results also suggest that increased drought in savannas will contribute to overall declines in insect abundance. Moreover, our recorded increase in ant abundance was primarily in the form of increases in dominant species, illustrating how drought-induced shifts in relative abundance will likely influence ecosystem structure and function. Our study highlights the phenomenon of spill-over drought effects and suggests rather than mitigating drought, termite mounds can instead become the focus for more intense grazing, with important consequences for insect communities.},
   langid = {english},
-  keywords = {\#duplicate-citation-key,ants,Drought,grasshoppers,rainfall,savanna,termite mounds}
+  keywords = {ants,Drought,grasshoppers,rainfall,savanna,termite mounds}
 }
 
 @article{vanderplas2012,
   title = {Trait Similarity Patterns within Grass and Grasshopper Communities: Multitrophic Community Assembly at Work},
-  author = {{Van der Plas}, F and Anderson, {\relax TM} and Olff, H},
+  author = {{Van der Plas}, F and Anderson, TM and Olff, H},
   year = {2012},
   journal = {Ecology},
   volume = {93},
@@ -1388,14 +1308,13 @@
   publisher = {{John Wiley \& Sons, Ltd}},
   issn = {1464-7931},
   doi = {10.1111/brv.12113},
-  urldate = {2022-11-08},
   abstract = {ABSTRACT Both arthropods and large grazing herbivores are important components and drivers of biodiversity in grassland ecosystems, but a synthesis of how arthropod diversity is affected by large herbivores has been largely missing. To fill this gap, we conducted a literature search, which yielded 141 studies on this topic of which 24 simultaneously investigated plant and arthropod diversity. Using the data from these 24 studies, we compared the responses of plant and arthropod diversity to an increase in grazing intensity. This quantitative assessment showed no overall significant effect of increasing grazing intensity on plant diversity, while arthropod diversity was generally negatively affected. To understand these negative effects, we explored the mechanisms by which large herbivores affect arthropod communities: direct effects, changes in vegetation structure, changes in plant community composition, changes in soil conditions, and cascading effects within the arthropod interaction web. We identify three main factors determining the effects of large herbivores on arthropod diversity: (i) unintentional predation and increased disturbance, (ii) decreases in total resource abundance for arthropods (biomass) and (iii) changes in plant diversity, vegetation structure and abiotic conditions. In general, heterogeneity in vegetation structure and abiotic conditions increases at intermediate grazing intensity, but declines at both low and high grazing intensity. We conclude that large herbivores can only increase arthropod diversity if they cause an increase in (a)biotic heterogeneity, and then only if this increase is large enough to compensate for the loss of total resource abundance and the increased mortality rate. This is expected to occur only at low herbivore densities or with spatio-temporal variation in herbivore densities. As we demonstrate that arthropod diversity is often more negatively affected by grazing than plant diversity, we strongly recommend considering the specific requirements of arthropods when applying grazing management and to include arthropods in monitoring schemes. Conservation strategies aiming at maximizing heterogeneity, including regulation of herbivore densities (through human interventions or top-down control), maintenance of different types of management in close proximity and rotational grazing regimes, are the most promising options to conserve arthropod diversity.},
   keywords = {defoliation,grazing,insects,invertebrates,large grazers,management,plants,soil compaction,species richness,ungulates}
 }
 
 @article{vanwingerden1991,
   title = {The Influence of Temperature on the Duration of Egg Development in {{West European}} Grasshoppers ({{Orthoptera}}: {{Acrididae}})},
-  author = {Van Wingerden, {\relax WKRE} and Musters, {\relax JCM} and Maaskamp, {\relax FIM}},
+  author = {Van Wingerden, WKRE and Musters, JCM and Maaskamp, FIM},
   year = {1991},
   journal = {Oecologia},
   volume = {87},
@@ -1415,11 +1334,10 @@
   pages = {29--33},
   doi = {10.2111/1551-5028(2004)057[0029:SCORGW]2.0.CO;2},
   abstract = {Grasshoppers (Orthoptera: Acrididae) are considered among the most damaging rangeland pests, but are necessary for the survival of many wildlife species. Most grasshoppers species are innocuous, but control with insecticides is non-discriminatory among species. The objectives were to evaluate the effects of prescribed burning on the abundance and biomass of grasshoppers and to determine if species could be selectively controlled with prescribed fire. Twenty-four, 4-ha sites were selected in a sand sagebrush-mixed prairie near Woodward, Okla. and blocked by pasture. Plots were randomly assigned fall-, spring-, or nonburned treatments within block with 4 replications per treatment for each of 2 years. Grasshopper biomass and abundance were sampled in late July and early August by sweeping with canvas beating nets. Specimens were weighed to the nearest 0.1 mg and identified to species. Fire treatments had no effects on the total abundance or biomass of grasshoppers across species, with about 10 grasshoppers weighing 4,090 mg per 150 sweeps. Fire effects on the 4 most common species were variable and could be explained by the biology of the insects. Melanoplus bowditchi and M. flavidus were unaffected by fire treatment. Hesperotettix viridis is sensitive to damage to its host plants and was reduced about 88\% by fire in either season. Ageneotettix deorum abundance was 65\% lower on fall-burned plots. We hypothesize the reduction occurred because the species' eggs are laid near the soil surface and exposed to the heat of passing fire. Fire prescriptions may be developed to target species-specific vulnerabilities and reduce pest grasshoppers while maintaining the food base for grasshopper predators.},
-  langid = {english},
-  keywords = {\#duplicate-citation-key}
+  langid = {english}
 }
 
-@article{vermeire2011a,
+@article{vermeire2011,
   title = {Plant Community and Soil Environment Response to Summer Fire in the Northern {{Great Plains}}},
   author = {Vermeire, Lance T and Crowder, Jessica L and Wester, David B},
   year = {2011},
@@ -1429,8 +1347,7 @@
   pages = {37--46},
   publisher = {{Elsevier}},
   issn = {1550-7424},
-  doi = {10.2111/REM-D-10-00049.1},
-  keywords = {\#duplicate-citation-key}
+  doi = {10.2111/REM-D-10-00049.1}
 }
 
 @article{vieira1996,
@@ -1443,7 +1360,7 @@
   issn = {0006-3606}
 }
 
-@article{wallace2005d,
+@article{wallace2005,
   title = {The Effect of Fire Spatial Scale on {{Bison}} Grazing Intensity},
   author = {Wallace, L.L. and Crosthwaite, K.A.},
   year = {2005},
@@ -1454,11 +1371,10 @@
   pages = {337--349},
   issn = {1572-9761},
   doi = {10.1007/s10980-005-5648-7},
-  abstract = {To determine whether fire spatial and temporal scales affect foraging behavior and grazing intensity by Bison (Bison bison), we burned three different patch sizes (225, 900, and 3600~m2) across an otherwise homogeneous grassland landscape. We then monitored grazing intensity for the succeeding 14~months. During the first 5~months after the burn (August\textendash January), the Bison grazing intensity pattern was affected by whether a plot was burned and only marginally affected by plot size. During the next 5~months (January\textendash June), grazing intensity was unaffected by plot size, but was greatest in the unburned 225 and 3600-m2 plots. The final 4~months (June\textendash October), grazing intensity was unaffected by treatments other than being higher in the unburned 3600-m2 plots. By the final sampling date, biomass was significantly greater in the burned plots and grazing intensity appeared to be responding to the amount of biomass present and the total amount of N present. The pattern displayed within the first 5~months after the burn is congruent with the expectations of optimal foraging theory with overmatching in the smallest plot size of 225~m2 (BioScience 37 (1987) 789\textendash 799). The next two sampling periods displayed a matching aggregate response relative to biomass availability (Oecologia 100 (1999) 107\textendash 117) and total nitrogen mass (g~m-2). The temporal shift that we found in Bison response to burn patch size is, to our knowledge, the first such examination of both spatial and temporal responses by Bison to landscape heterogeneity. We now have quantitative evidence of how native herbivores can alter their foraging responses to changes in landscape structure over time.},
-  keywords = {\#duplicate-citation-key}
+  abstract = {To determine whether fire spatial and temporal scales affect foraging behavior and grazing intensity by Bison (Bison bison), we burned three different patch sizes (225, 900, and 3600~m2) across an otherwise homogeneous grassland landscape. We then monitored grazing intensity for the succeeding 14~months. During the first 5~months after the burn (August\textendash January), the Bison grazing intensity pattern was affected by whether a plot was burned and only marginally affected by plot size. During the next 5~months (January\textendash June), grazing intensity was unaffected by plot size, but was greatest in the unburned 225 and 3600-m2 plots. The final 4~months (June\textendash October), grazing intensity was unaffected by treatments other than being higher in the unburned 3600-m2 plots. By the final sampling date, biomass was significantly greater in the burned plots and grazing intensity appeared to be responding to the amount of biomass present and the total amount of N present. The pattern displayed within the first 5~months after the burn is congruent with the expectations of optimal foraging theory with overmatching in the smallest plot size of 225~m2 (BioScience 37 (1987) 789\textendash 799). The next two sampling periods displayed a matching aggregate response relative to biomass availability (Oecologia 100 (1999) 107\textendash 117) and total nitrogen mass (g~m-2). The temporal shift that we found in Bison response to burn patch size is, to our knowledge, the first such examination of both spatial and temporal responses by Bison to landscape heterogeneity. We now have quantitative evidence of how native herbivores can alter their foraging responses to changes in landscape structure over time.}
 }
 
-@article{wanchuk2021a,
+@article{wanchuk2021,
   title = {Contrasts in Forage Mineral Concentration with Patch-Burn Grazing: A Preliminary Analysis},
   author = {Wanchuk, Megan R and McGranahan, Devan A and Sedivec, Kevin K and Swanson, Kendall C and Hovick, Torre J and Limb, Ryan F},
   year = {2021},
@@ -1468,17 +1384,14 @@
   number = {Supplement\_S1},
   pages = {S75-S79},
   issn = {2573-2102},
-  doi = {10.1093/tas/txab173},
-  urldate = {2022-04-21},
-  keywords = {\#duplicate-citation-key}
+  doi = {10.1093/tas/txab173}
 }
 
-@phdthesis{wanchuk2022a,
+@phdthesis{wanchuk2022,
   title = {Patch-{{Burning Improves Forage Nutritive Value}} and {{Livestock Performance}} over {{Rotational}} and {{Continuous Grazing Strategies}}},
   author = {Wanchuk, Megan Rose},
   year = {2022},
-  school = {North Dakota State University},
-  keywords = {\#duplicate-citation-key}
+  school = {North Dakota State University}
 }
 
 @article{warren1987,
@@ -1492,8 +1405,7 @@
   pages = {105--130},
   issn = {0167-8809},
   doi = {10.1016/0167-8809(87)90012-0},
-  abstract = {Grassland burning elicits a diverse array of responses by arthropods, depending upon many interactive factors. Empirical models were developed, based on the literature, to qualitatively order selected behavioral characteristics of fire, arthropod life habits and phenology, interactions of arthropods with non-arthropods, and burning-induced habitat alterations as they regulate arthropod populations. The models are based on a four-phase sequence of impacts attributable to prescribed burning (fuel development, combustion, shock and ecosystem recovery) which partition acute and chronic fire influences on arthropod populations. Applications for manipulating arthropod populations may be refined by quantifying arthropod responses during each phase of prescribed burning.},
-  keywords = {\#duplicate-citation-key}
+  abstract = {Grassland burning elicits a diverse array of responses by arthropods, depending upon many interactive factors. Empirical models were developed, based on the literature, to qualitatively order selected behavioral characteristics of fire, arthropod life habits and phenology, interactions of arthropods with non-arthropods, and burning-induced habitat alterations as they regulate arthropod populations. The models are based on a four-phase sequence of impacts attributable to prescribed burning (fuel development, combustion, shock and ecosystem recovery) which partition acute and chronic fire influences on arthropod populations. Applications for manipulating arthropod populations may be refined by quantifying arthropod responses during each phase of prescribed burning.}
 }
 
 @article{welti2019,
@@ -1543,8 +1455,8 @@
   abstract = {Understanding how food web interactions alter the processing of limiting nutrient elements is an important goal of ecosystem ecology. An experiment manipulating densities of the grasshopper Oedaleus asiaticus was performed to assess top\textendash down effects of grasshoppers on C:N:P stoichiometry of plants and soil in a grassland ecosystem in Inner Mongolia (China). With increased grasshopper feeding, plant biomass declined fourfold, litter abundance increased 30\%, and the plant community became dominated by non-host plant taxa. Plant stoichiometric response depended on whether or not the plant was a grasshopper host food species: C:N and C:P ratios increased with increasing grasshopper density (GD) for host plants but decreased in non-host plants. These data suggest either a direct transfer of grasshopper-recycled nutrients from host to non-host plants or a release of non-host plants from nutrient competition with heavily grazed host plants. Litterfall C:N and C:P decreased across moderate levels of grasshopper density but no effects on C:N:P stoichiometry in the surface soil were observed, possibly due to the short experimental period. Our observations of divergent C:N:P stoichiometric response among plant species highlight the important role of grasshopper herbivory in regulating plant community structure and nutrient cycling in grassland ecosystems.}
 }
 
-@article{zhang2019a,
-  title = {Locust and {{Grasshopper Management}}},
+@article{zhang2019,
+  title = {Locust and grasshopper management},
   author = {Zhang, Long and Lecoq, Michel and Latchininsky, Alexandre and Hunter, David},
   year = {2019},
   month = jan,
@@ -1554,8 +1466,9 @@
   pages = {15--34},
   issn = {0066-4170, 1545-4487},
   doi = {10.1146/annurev-ento-011118-112500},
-  urldate = {2022-11-08},
   abstract = {Locusts and grasshoppers (Orthoptera: Acridoidea) are among the most dangerous agricultural pests. Their control is critical to food security worldwide and often requires governmental or international involvement. Although locust and grasshopper outbreaks are now better controlled and often shorter in duration and reduced in extent, large outbreaks, often promoted by climate change, continue to occur in many parts of the world. While some locust and grasshopper control systems are still curative, the recognition of the damage these pests can cause and the socioeconomic consequences of locust and grasshopper outbreaks have led to an increasing paradigm shift from crop protection to preventive management. Effective preventive management strategy relies on an improved knowledge of the pest biology and ecology and more efficient monitoring and control techniques.},
   langid = {english},
   file = {C\:\\Users\\devan.mcgranahan\\Zotero\\storage\\8C88KJVT\\Zhang et al. - 2019 - Locust and Grasshopper Management.pdf}
 }
+
+@Comment{jabref-meta: databaseType:bibtex;}
